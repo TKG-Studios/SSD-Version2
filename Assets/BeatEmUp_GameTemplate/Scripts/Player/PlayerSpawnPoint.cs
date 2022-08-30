@@ -14,5 +14,6 @@ public class PlayerSpawnPoint : MonoBehaviour {
 	void spawnPlayer() {
 		GameObject player = GameObject.Instantiate(Resources.Load("Emiko"), transform.position, Quaternion.identity) as GameObject;
 		player.name = "Emiko";
+		HealthBarExtension.instance.UpdatePlayerName(player.name);
 	}
 }

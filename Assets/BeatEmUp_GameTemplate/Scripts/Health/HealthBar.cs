@@ -11,6 +11,7 @@ public class HealthBar : MonoBehaviour {
 
 	void OnEnable() {
 		HealthSystem.onHealthChange += UpdateHealth;
+	
 	}
 
 	void OnDisable() {

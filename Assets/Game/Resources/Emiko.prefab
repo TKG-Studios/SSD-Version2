@@ -361,7 +361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHp: 20
   CurrentHp: 20
-  invulnerable: 1
+  invulnerable: 0
 --- !u!114 &2700716088518862322
 MonoBehaviour:
   m_ObjectHideFlags: 0
