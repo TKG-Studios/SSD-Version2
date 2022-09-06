@@ -16,13 +16,14 @@ public class PlayerCombat : MonoBehaviour {
 	public delegate void PlayerEventHandler();
 	public static event PlayerEventHandler OnPlayerDeath;
 
-	[SerializeField] private int attackNum = 1; //the current attack number
+	[SerializeField] public int attackNum = 1; //the current attack number
 	private bool continuePunchCombo; //true if a punch combo needs to continue
 	private bool continueKickCombo; //true if the a kick combo needs to  continue
 	private PlayerAnimator animator; //link to the animator component
 	private PlayerState playerState; //the state of the player
 	private float LastAttackTime = 0; //time of the last attack
-	private bool targetHit; //true if the last hit has hit a target
+	[HideInInspector]
+	public bool targetHit; //true if the last hit has hit a target
 	private bool ChangeDirDuringCombo = false; //allows player to change direction at the start of an attack
 	private bool ChangeDirAtLastHit = true; //allows player to change direction at the last hit
 	private bool BlockAttacksFromBehind = true; //block enemy attacks coming from behind
@@ -233,7 +234,7 @@ public class PlayerCombat : MonoBehaviour {
 	}
 
 	//checks if we have hit something (animation event)
-	public void CheckForHit() {
+	public virtual void CheckForHit() {
 
 		int dir = (int)GetComponent<PlayerMovement> ().getCurrentDirection ();
 		Vector3 playerPos = transform.position + Vector3.up * 1.5f;
@@ -255,6 +256,9 @@ public class PlayerCombat : MonoBehaviour {
 				if (ObjInYRange (enemy)) {
 					DealDamageToEnemy (hits [i].collider.gameObject);
 					targetHit = true;
+                    
+				
+                  
 				}
 			}
 
