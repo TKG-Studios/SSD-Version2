@@ -1,0 +1,2372 @@
+fileFormatVersion: 2
+guid: ec41310b5b24ade40acaca4aec7810e0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Perry_Sheet1_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 864
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ef5d6c459b2a479d852da6a80b386
+      internalID: 797637759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791f48416a7d1fe4da117d9856fcf634
+      internalID: -408049071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb0cc48ca3bbe343b71ff23076e40ba
+      internalID: 897850068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d571241ce5dca418fc7ed3af35483b
+      internalID: 359344941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 768
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fcb11534624634ba3d5df9d08280b5
+      internalID: 1117364762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 768
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92748342a3603fd4588aab5b3b5d9d5d
+      internalID: 403246621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 768
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048876bfa97fa8c488208b02c9e3825c
+      internalID: 1738417230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_7
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 768
+        width: 24
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c232b9b52084774cb09dc2fba32a253
+      internalID: -2006199453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_8
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 768
+        width: 24
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e6968249a3a04eb3a03c2b8d472c8
+      internalID: 925156597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_9
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 768
+        width: 23
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825c7714937689147a302b46b988b22c
+      internalID: 325796617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b677b2f9bbe00024fb3fb4e95cbe45f7
+      internalID: 549539834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_11
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3401660c52bcef54e84a45b302ff31f3
+      internalID: 1953812836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_12
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 768
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eceff994d0ef2429e0396fcc2ef7a6
+      internalID: -665580296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 672
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba892ff09da44a041aed263248f1bfd8
+      internalID: 1284447319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 673
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a1f9d0ef4ab884183e8c695b75e548
+      internalID: -1070640510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 673
+        width: 23
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e132e99a2815b0d41ada9863a7903d3d
+      internalID: 1276869483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_16
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 673
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400810758d30b394cbe7d5a866333c3d
+      internalID: 331857958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 673
+        width: 29
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dfa8ce687658e4f81c22ae3988b8e3
+      internalID: -1797620776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_18
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 672
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf766d5fac94a0148895b5ce4712dc3a
+      internalID: 2131915217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_19
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 672
+        width: 25
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4401820302620d2408ffd114803d1d8b
+      internalID: 1543783164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_20
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 672
+        width: 24
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84261160cc57174d959a906177c4f46
+      internalID: 2083101558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_21
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 672
+        width: 25
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d86164b71b5b1045b8f09678ec3015b
+      internalID: 1359721470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_22
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 672
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c12b5de872bee4f834c3813be0ea65
+      internalID: 68101621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 576
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00850f6bfd4079e4c8acc5407f90ce0f
+      internalID: 782811044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_24
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 576
+        width: 31
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831646ae0ed761e4a8eac066d0451ba9
+      internalID: -90899161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 576
+        width: 33
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293c110b97f407a4b8d0a2b4d69b8d08
+      internalID: 1154092449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_26
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 576
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e810cfdcdc070e43b1ed91d085d71bd
+      internalID: 2014065977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_28
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 488
+        width: 34
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4d3a1b184a5b48b243c6f12f33015
+      internalID: 164505586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 480
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8b9bf0950fae741932e883cb2426f8
+      internalID: -438603473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_32
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 491
+        width: 45
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d27dca16666234d814bc2f9868e634
+      internalID: -1761543951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_34
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 491
+        width: 63
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff7e51f348d77e4a875f8e7e78e39ce
+      internalID: -841920890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_36
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 489
+        width: 55
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd9d8607c293b479a843a2cc1edc7f
+      internalID: -2032264821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_38
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 480
+        width: 63
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6e4618dfab1214ba54e66cba8cbe5d
+      internalID: 1192707838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_39
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 483
+        width: 63
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b24771279500d4abffa2437aefd35f
+      internalID: -1305283558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_40
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 480
+        width: 67
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff422be22696dea43a0b1d2e154326dd
+      internalID: -2141657673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_41
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 482
+        width: 68
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec6915410f64404d8e0460987f60937
+      internalID: 380848049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_42
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 482
+        width: 72
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356bbf34e609d454a86cb45c9339d93e
+      internalID: 1727161466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_43
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 482
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2b2e20006669d46b25b1b37aba5ad6
+      internalID: -2092472647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_44
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 482
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca2fc44061e614a9b3ff135a2c91a2
+      internalID: 1777128545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_45
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 482
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcf8e3f3e1e12f40b5160846a3262ce
+      internalID: -807020749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_46
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 29
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b5134a5f0e2094d91d7c63b95e3b53
+      internalID: 1624893490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440293567fab95d4ca4b56da3664935e
+      internalID: -90639380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 384
+        width: 27
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a723e12b01ede6c4a86a11d1514e1e4b
+      internalID: 112327013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_49
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 384
+        width: 24
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22880f4f9229fec4d928f01fab7406b3
+      internalID: -1179695912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_50
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 288
+        width: 29
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8524f6973d1df9942beb9c2b1578b21c
+      internalID: 182156840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0812ae99d91b11448abdec20d7d92498
+      internalID: 1133915104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 288
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a24a137a0f1344b806492409b526a
+      internalID: -1430579415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 288
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c97d83cbf4d44ebd91855491c6470
+      internalID: -794162024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 289
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334c5f00def1caf478d8d5332c7c1681
+      internalID: -496088077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_55
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 291
+        width: 62
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b843a50b066854fa1b8a61ee5b85ac
+      internalID: -759012157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_56
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 288
+        width: 63
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35019f5311391e64d9b2082a1faf42e4
+      internalID: -1373133530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_57
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 288
+        width: 67
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c4a4adb8f013544a05b97a9111deb4
+      internalID: 1414470168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_58
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 290
+        width: 69
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ff64a7c5b2c9b49943de4b861afd4e
+      internalID: -1067224441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_59
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 290
+        width: 73
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7ed43b0f966f042a068ae8b92e21f2
+      internalID: 1490181681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_60
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 290
+        width: 77
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187d9ef8d4fa5494cb332be3650dde1b
+      internalID: -2042232166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_61
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 290
+        width: 77
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6a0bc3107bd8f43b966300ec65c8c1
+      internalID: 639796006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_62
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 290
+        width: 77
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0708a5b667e12bf4a9cc8cdeff1f40a6
+      internalID: 2019508859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ad386f35cc98e499e9d64af4e1cc73
+      internalID: -1865007362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 192
+        width: 41
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e1c9f9dbb01e1428a9d3e803232068
+      internalID: 710607599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_65
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 192
+        width: 43
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7686b0ca2ecde64aa3090248ae09c1f
+      internalID: -1241805994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 192
+        width: 35
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d900b88c8ef78814ab697218ca916417
+      internalID: 635050007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_67
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 192
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13615d13ba507d24db98772e5e8e3076
+      internalID: 1986044130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_68
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a831fd75cb74b3647ac7895bf0496653
+      internalID: -571715198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_69
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 192
+        width: 36
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a712d947eaae44f9cb955b16831573
+      internalID: 1894399644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_70
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 192
+        width: 36
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c25727c2bb4cab43be0001302b685e9
+      internalID: -32034700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_71
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 192
+        width: 48
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e3f623eae213e4c90aaebc7e5f68ae
+      internalID: -1445271676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_72
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 192
+        width: 51
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fd09255f664b24f81ff85d9841c02d
+      internalID: -809035153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_73
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 192
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e4cc38e8448e8428b7fecb7a6a4d04
+      internalID: 1309270272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_74
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 192
+        width: 32
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d89f9349ed99cf4e9b9aba54eae0456
+      internalID: -2134700389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_75
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 192
+        width: 30
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d8351aa2c1ef42928b794989d63c8
+      internalID: 58673174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_76
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 192
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4198f5322c64ffd4ca81e9dd70508deb
+      internalID: -1366656707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_77
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 192
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614f595d82a26ef499e5b29f5f40592a
+      internalID: 1571151246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_78
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 192
+        width: 26
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e79dcb62246f9849922599c6dedecd7
+      internalID: 561831529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_79
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 192
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b5cb002a4f4647ac288d0db2e7fe3
+      internalID: -669934670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_80
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f902318aba31a4a9472d4b24c1a773
+      internalID: -329749077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_81
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 103
+        width: 33
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e96343ef9a684d81ec8435b395c5e
+      internalID: 158398623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_82
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 109
+        width: 29
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0458ccc02d77545b601c887875b244
+      internalID: 2081185715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_83
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 115
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0a14d69742eaa4180fc398a84716e3
+      internalID: 826646097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_84
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 121
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef79778a9b143f242a0fc06d80b01f6c
+      internalID: -171748683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 120
+        width: 50
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2455d438bab7fb044864a22b674787fc
+      internalID: -1379174637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_86
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 121
+        width: 55
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62787b1c1a2d62448d87ee958b2398a
+      internalID: -1459977452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_87
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 115
+        width: 44
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf93689fc98c47249a785f5a2b3d9067
+      internalID: 1303069015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_88
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 109
+        width: 60
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e49f7589a68ae84ea905d7ca314bb79
+      internalID: 750882141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_89
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 100
+        width: 47
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723e58c348d0f8e41a53f77bac9c5033
+      internalID: -2139185056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_90
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 96
+        width: 25
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75db93d965757364aa9144d8e9fe7574
+      internalID: -573524471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_91
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 96
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897ae8c2ed8d0bb469710a1087f0aadf
+      internalID: -736928992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_92
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a68c7a0e419cd34281f7f977021b2bd
+      internalID: 315835206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_93
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd87cd86cac65243883b5ddfa03bf11
+      internalID: -2135909949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441580217ade9d44ab32aa24fe42cc0a
+      internalID: 421908294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_95
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e5f93fae0e364f9d20f0d4b0e083f
+      internalID: -1081259194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_96
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222fea19d0c1d684d819a87f40282d62
+      internalID: 1974903434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_97
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6f87fd6d544564f85e205f2bb24c53
+      internalID: 3305382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_98
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16617d7c68a8864e974a99a0a7e28b3
+      internalID: -1914028957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_99
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fe4fb8281e6004f98292dba59031f1
+      internalID: -361435285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_100
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7087799ec95b6664a90051721b217d33
+      internalID: 1458905020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_101
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 41
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da319c7eeb8baf479ab915e1bd93780
+      internalID: 159887077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_102
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 0
+        width: 56
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c02c7735925d4419ca97fad2ca3c3b
+      internalID: -763344698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_103
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2
+        width: 61
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102b07fa370b4e94fb43fd85ab5a844f
+      internalID: -2099727425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_104
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 2
+        width: 58
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883944d0dc433bc4886f2d3329810a2b
+      internalID: 576546247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_105
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1
+        width: 53
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac58f7b41579dd42bda2cf61aec708d
+      internalID: -699438852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_106
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 0
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d1861ce8c7e84499af923963c60cf1
+      internalID: -1916308071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perry_Sheet1_107
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 29
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c2480f7a021d64588cb5485a9b6ee7
+      internalID: 954935651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Perry_Sheet1_12: -665580296
+      Perry_Sheet1_5: 403246621
+      Perry_Sheet1_31: -438603473
+      Perry_Sheet1_41: 380848049
+      Perry_Sheet1_49: -1179695912
+      Perry_Sheet1_98: -1914028957
+      Perry_Sheet1_23: 782811044
+      Perry_Sheet1_79: -669934670
+      Perry_Sheet1_45: -807020749
+      Perry_Sheet1_82: 2081185715
+      Perry_Sheet1_85: -1379174637
+      Perry_Sheet1_72: -809035153
+      Perry_Sheet1_83: 826646097
+      Perry_Sheet1_38: 1192707838
+      Perry_Sheet1_94: 421908294
+      Perry_Sheet1_73: 1309270272
+      Perry_Sheet1_64: 710607599
+      Perry_Sheet1_40: -2141657673
+      Perry_Sheet1_105: -699438852
+      Perry_Sheet1_104: 576546247
+      Perry_Sheet1_19: 1543783164
+      Perry_Sheet1_80: -329749077
+      Perry_Sheet1_97: 3305382
+      Perry_Sheet1_34: -841920890
+      Perry_Sheet1_87: 1303069015
+      Perry_Sheet1_92: 315835206
+      Perry_Sheet1_89: -2139185056
+      Perry_Sheet1_58: -1067224441
+      Perry_Sheet1_21: 1359721470
+      Perry_Sheet1_91: -736928992
+      Perry_Sheet1_95: -1081259194
+      Perry_Sheet1_71: -1445271676
+      Perry_Sheet1_66: 635050007
+      Perry_Sheet1_78: 561831529
+      Perry_Sheet1_81: 158398623
+      Perry_Sheet1_22: 68101621
+      Perry_Sheet1_1: -408049071
+      Perry_Sheet1_27: 1030722111
+      Perry_Sheet1_48: 112327013
+      Perry_Sheet1_0: 797637759
+      Perry_Sheet1_28: 164505586
+      Perry_Sheet1_42: 1727161466
+      Perry_Sheet1_62: 2019508859
+      Perry_Sheet1_53: -794162024
+      Perry_Sheet1_2: 897850068
+      Perry_Sheet1_29: 1861748741
+      Perry_Sheet1_88: 750882141
+      Perry_Sheet1_54: -496088077
+      Perry_Sheet1_63: -1865007362
+      Perry_Sheet1_86: -1459977452
+      Perry_Sheet1_33: -335414970
+      Perry_Sheet1_96: 1974903434
+      Perry_Sheet1_102: -763344698
+      Perry_Sheet1_52: -1430579415
+      Perry_Sheet1_106: -1916308071
+      Perry_Sheet1_18: 2131915217
+      Perry_Sheet1_35: -1141336209
+      Perry_Sheet1_75: 58673174
+      Perry_Sheet1_50: 182156840
+      Perry_Sheet1_99: -361435285
+      Perry_Sheet1_37: 1276064745
+      Perry_Sheet1_68: -571715198
+      Perry_Sheet1_46: 1624893490
+      Perry_Sheet1_8: 925156597
+      Perry_Sheet1_13: 1284447319
+      Perry_Sheet1_84: -171748683
+      Perry_Sheet1_4: 1117364762
+      Perry_Sheet1_60: -2042232166
+      Perry_Sheet1_59: 1490181681
+      Perry_Sheet1_90: -573524471
+      Perry_Sheet1_15: 1276869483
+      Perry_Sheet1_100: 1458905020
+      Perry_Sheet1_47: -90639380
+      Perry_Sheet1_26: 2014065977
+      Perry_Sheet1_7: -2006199453
+      Perry_Sheet1_101: 159887077
+      Perry_Sheet1_25: 1154092449
+      Perry_Sheet1_11: 1953812836
+      Perry_Sheet1_24: -90899161
+      Perry_Sheet1_14: -1070640510
+      Perry_Sheet1_39: -1305283558
+      Perry_Sheet1_20: 2083101558
+      Perry_Sheet1_6: 1738417230
+      Perry_Sheet1_67: 1986044130
+      Perry_Sheet1_61: 639796006
+      Perry_Sheet1_77: 1571151246
+      Perry_Sheet1_69: 1894399644
+      Perry_Sheet1_32: -1761543951
+      Perry_Sheet1_44: 1777128545
+      Perry_Sheet1_65: -1241805994
+      Perry_Sheet1_55: -759012157
+      Perry_Sheet1_10: 549539834
+      Perry_Sheet1_51: 1133915104
+      Perry_Sheet1_57: 1414470168
+      Perry_Sheet1_16: 331857958
+      Perry_Sheet1_17: -1797620776
+      Perry_Sheet1_9: 325796617
+      Perry_Sheet1_74: -2134700389
+      Perry_Sheet1_43: -2092472647
+      Perry_Sheet1_30: 1899008005
+      Perry_Sheet1_107: 954935651
+      Perry_Sheet1_36: -2032264821
+      Perry_Sheet1_56: -1373133530
+      Perry_Sheet1_76: -1366656707
+      Perry_Sheet1_3: 359344941
+      Perry_Sheet1_70: -32034700
+      Perry_Sheet1_93: -2135909949
+      Perry_Sheet1_103: -2099727425
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

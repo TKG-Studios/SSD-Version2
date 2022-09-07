@@ -196,7 +196,7 @@ public class EnemyActions : Enemy {
 
 		//knock down grounded
 		rb.velocity = Vector2.zero;
-		enemyState = ENEMYSTATE.KNOCKDOWNGROUNDED;
+		//enemyState = ENEMYSTATE.KNOCKDOWNGROUNDED;
 	}
 
 	//remove enemy from the playing field with a flicker effect

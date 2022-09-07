@@ -14,6 +14,7 @@ public class EnemyAnimator : MonoBehaviour {
 	public void Idle(){
 		if(animator.isInitialized){ 
 			animator.SetTrigger("Idle");
+			
 		}
 	}
 

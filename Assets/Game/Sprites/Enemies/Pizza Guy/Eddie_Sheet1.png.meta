@@ -1,0 +1,2372 @@
+fileFormatVersion: 2
+guid: de3e315cd53ae104e8af629a25726d35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eddie_Sheet1_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 864
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d5dc248a02f404fba2d9eabe6a4fdc
+      internalID: 1274893044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7938616b3c98046a5cfe1413da4a25
+      internalID: 1175818503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e8b9f217f54564987c4d42bc907967
+      internalID: 962645309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a76932fbcd43144b352fcdb3755589
+      internalID: -676926833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 768
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846b3aad859e01946a5931994f81386d
+      internalID: 484825450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 768
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6faf305639820479e70b6be48c1c22
+      internalID: 157035064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 768
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b03fdbce016d4aa50c3730d1a7f67
+      internalID: 825585387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_7
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 768
+        width: 24
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f14a6edbe559c42ad9787df0ab31b3
+      internalID: 364105041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_8
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 768
+        width: 24
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480d6242fcd091e4ba5b5cd97bfaab53
+      internalID: -1679648077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_9
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 768
+        width: 23
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8def233b6bee14b927fae80bcb6526
+      internalID: 217382212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38524d644017b0040befe29d299c4eed
+      internalID: -1449028199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_11
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 768
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1309ba15f0f8dce458b76924baacb03e
+      internalID: -2074768472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_12
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 768
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257faac308bde2249a8d5cdb234a29ea
+      internalID: -1754859203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 672
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2518a716c912c2a47a1ab02ee376acf9
+      internalID: 1296539771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 673
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95554095c006e0b41a6d096dc64a9752
+      internalID: 267956264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 673
+        width: 23
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a214421dd99af48a36975f14a3ef60
+      internalID: -1817052569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_16
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 673
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25520665722de694b99bdb8c7d0bb0ff
+      internalID: -371900451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 673
+        width: 29
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fc757cc09f84e40a33110286fcb020
+      internalID: 723524847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_18
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 672
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5de8eed38450ca4cb735d867f7a487e
+      internalID: -1825815935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_19
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 672
+        width: 25
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd6cbc89cfc37c448e2ff72d5de792b
+      internalID: 453758119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_20
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 672
+        width: 24
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e641d1da7efb74792fbb26da9b3322
+      internalID: -1642941307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_21
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 672
+        width: 25
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265ec4490827526408974be793c58248
+      internalID: -357843405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_22
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 672
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701fef0d436538944a0bf6d6eb2ff033
+      internalID: 758353765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 576
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c11cca2ae183a40aa038120d5e7ce3
+      internalID: 358878979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_24
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 576
+        width: 31
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d3b06408f255a44ac5fee2fa6b4b1e
+      internalID: 372458252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 576
+        width: 33
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf088ae5c8fdea54b91c7f08138cf091
+      internalID: 349505709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_26
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 576
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dd88ff24126804ca9bd15446873d11
+      internalID: 1843407157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_28
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 488
+        width: 34
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de045ee8af34dd743bd8c5b5895ef917
+      internalID: -717861620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 480
+        width: 29
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e650d54b2a95d704b99880ca878340e9
+      internalID: 421142731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_32
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 491
+        width: 43
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36236164d0f53e54788dd1c37011b3fc
+      internalID: 183669062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_34
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 491
+        width: 62
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c264cc1ef009b644890b605918742a49
+      internalID: -1384848062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_36
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 489
+        width: 56
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc99bce5d98a6b49b900e1efcf78c91
+      internalID: 1335909267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_38
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 480
+        width: 62
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0777cb36b2e6546a071dfdadab7ab2
+      internalID: 527604056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_39
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 483
+        width: 63
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb326f34992e34a4e83cbe3c9806054c
+      internalID: 150773658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_40
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 480
+        width: 67
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968927ad9dd12254480167f10715fa44
+      internalID: -843190456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_41
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 482
+        width: 68
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3d5b0677f1c747b06b657cdc35bc7
+      internalID: 88921862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_42
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 482
+        width: 72
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c89131b9a07034981ef437d1cf4ce5
+      internalID: -140054961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_43
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 482
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d74b98d21ae56e409d8570fa0cfeab3
+      internalID: -1600889822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_44
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 482
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc6752cef3212045abd136a39804b8c
+      internalID: 464579812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_45
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 482
+        width: 76
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d70a7d206cbea4ba17ccebcf376d0c
+      internalID: 50072559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_46
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 29
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25059e520b0a59e4a9b65822e3dbcc66
+      internalID: 1815370902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4593d4ebfce5c4f44bb5b086d3d5c416
+      internalID: 1501678402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 384
+        width: 27
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b929dfda3611c7b44adba3f5ae565407
+      internalID: -1760295838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_49
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 384
+        width: 24
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816fe37dcf185db4985e5b5d21c96d55
+      internalID: 1060618699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_50
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 288
+        width: 29
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62c1b7b935f4434889238ac634475d1
+      internalID: 1410031389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774c22f99d0c48449ae5c31506ac2b3c
+      internalID: 1665099335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 288
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0de06d33634e0e4886ab93d727215d1
+      internalID: 1012134534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 288
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5797481122014b82fec98677dfc2c
+      internalID: -1005697631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 289
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca144ca2ac5a484c8fbe826fd0fd686
+      internalID: -278535645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_55
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 291
+        width: 62
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41b2bf9cedd7742a9bd8ed6f1a1bed
+      internalID: -1980453477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_56
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 288
+        width: 63
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565bd06c8ed61804db9cdd77476ab370
+      internalID: 1140354204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_57
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 288
+        width: 67
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2924ea7beeb2c2647bdafa2fe74eb83e
+      internalID: 2015621849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_58
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 290
+        width: 69
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf69c845964ce14f8a1d46bab5b9773
+      internalID: 853401560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_59
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 290
+        width: 73
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27fc108eb5a0db43a2afc16c4eeec3d
+      internalID: 494641988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_60
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 290
+        width: 77
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727910744e2a4ca41ab02bd383a3b217
+      internalID: -1168858190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_61
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 290
+        width: 77
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3440c162b73473488ff57a65d3c9ac5
+      internalID: 1324316692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_62
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 290
+        width: 77
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b3334d077c163488ad8888c1e942a5
+      internalID: -562333910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 24
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828a664d0c05d74428c55f16b30a4303
+      internalID: 690769817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 192
+        width: 41
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dc71f85859d884fad2834400379e45
+      internalID: 716675629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_65
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 192
+        width: 43
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a662016733eea0944a75eeb5d805a2a4
+      internalID: -1097462040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 192
+        width: 35
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f58a15c9e6b1341916cc7391a33452
+      internalID: -1378974880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_67
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 192
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0842f45e5c6126545afbb5524806bba0
+      internalID: 413382352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_68
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 192
+        width: 46
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7177823e5a5f44469f5115f8a71ade7
+      internalID: 2012621435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_69
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 192
+        width: 36
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4c5ef12fa8b7748b84039b51ea762d
+      internalID: -2076341656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_70
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 192
+        width: 36
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f3b12433eb03c449478b07296df88d
+      internalID: 10221778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_71
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 192
+        width: 48
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bfcd69011c2a54587fc89305334933
+      internalID: -1177970435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_72
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 192
+        width: 51
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296e728536c93b34383d11b27f9da52c
+      internalID: 1659842825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_73
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 192
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e58c90c696b6264fb019b80840bd590
+      internalID: 1681204973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_74
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 192
+        width: 32
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c754f72bbfd995242b868855892efce9
+      internalID: -767165379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_75
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 192
+        width: 30
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80dff1b1791e4048aa92dc5340e0d0a
+      internalID: 1626791472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_76
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 192
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5c9564c5763ef4a84c01101d09684f
+      internalID: -819074368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_77
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 192
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b238c0eb3ebc540a65392050e98cf4
+      internalID: -1116276587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_78
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 192
+        width: 26
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b081b460db41b5142874fa3bbd4c4b24
+      internalID: -132411341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_79
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 192
+        width: 25
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db4a503b5ead244d8ae110464031f37
+      internalID: 1588052790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_80
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a99564dddb7174697a5b070328e647
+      internalID: 16779472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_81
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 103
+        width: 33
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150e44e0ec079aa41b966f47796ceed8
+      internalID: 599453657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_82
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 109
+        width: 29
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df70ee62e136904d871e5cec26b0ab6
+      internalID: 320241323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_83
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 115
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21decfd73859a0d45868d165083db0d6
+      internalID: -1520397680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_84
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 121
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a393c8fc28717f46bd3233cfee97437
+      internalID: -1856925866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 120
+        width: 50
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0104459f666b2b4a94e37f14c827d71
+      internalID: 175864023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_86
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 121
+        width: 55
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bffb2ee6034b442b4aa00e9e58a475
+      internalID: -1211314385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_87
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 115
+        width: 44
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb2062dcbadc5e449872180b3dd3701
+      internalID: -125641130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_88
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 109
+        width: 60
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a22cfa966db194185f0e419d4363e6
+      internalID: 91974967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_89
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 100
+        width: 47
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198aca24935f36c41910e964dcac97eb
+      internalID: -1019581428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_90
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 96
+        width: 25
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c947fc8a1f1fe41957e40ef80a9a23
+      internalID: -648810090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_91
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 96
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e82d8e6f3d95143880b71052c7af96
+      internalID: -1073288568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_92
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b4824823654bf49bb302ae58f4bbad
+      internalID: -370614370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_93
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de05fcb4ad9f764586bc524e0125ae2
+      internalID: -1836596049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2445083da3bda7c4983db0f0bfd14615
+      internalID: 1513857326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_95
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2150c9adb6af738409a0d4af4b000436
+      internalID: -1184989235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_96
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8507326360ca1dc47bc352f34df1f611
+      internalID: 1262230729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_97
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf98247bdd70f3e4dbea85f95c43cf98
+      internalID: -1294256219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_98
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c543f3c18359b4887c923d7446df4a
+      internalID: -814140157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_99
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70614bb5e695cd4a8517639dae945df
+      internalID: -1290171074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_100
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9613e03e6e7265646a2741f0bd1e364f
+      internalID: 199197350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_101
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 41
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224859db476554542ace7093d22c9194
+      internalID: 1511981033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_102
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 0
+        width: 56
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710737a5c9702e844afee1926a6bbf5e
+      internalID: -2144844283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_103
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2
+        width: 61
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deb869e697bed24487703e8beeb07ec
+      internalID: 1895020280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_104
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 2
+        width: 58
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cf3f333e5bb3448a7244b7c0a606b1
+      internalID: 797189446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_105
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1
+        width: 53
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac0a02f802f03c4d88f5df96589d9e9
+      internalID: 1248231702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_106
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 0
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e207d59d55b577e4c85e350a2877d2b3
+      internalID: 208720941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eddie_Sheet1_107
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 29
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a538268c714565149b07de2850fcd73e
+      internalID: 569168797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Eddie_Sheet1_8: -1679648077
+      Eddie_Sheet1_89: -1019581428
+      Eddie_Sheet1_42: -140054961
+      Eddie_Sheet1_65: -1097462040
+      Eddie_Sheet1_25: 349505709
+      Eddie_Sheet1_107: 569168797
+      Eddie_Sheet1_13: 1296539771
+      Eddie_Sheet1_46: 1815370902
+      Eddie_Sheet1_24: 372458252
+      Eddie_Sheet1_103: 1895020280
+      Eddie_Sheet1_33: 961799858
+      Eddie_Sheet1_14: 267956264
+      Eddie_Sheet1_35: -1124201567
+      Eddie_Sheet1_83: -1520397680
+      Eddie_Sheet1_43: -1600889822
+      Eddie_Sheet1_66: -1378974880
+      Eddie_Sheet1_85: 175864023
+      Eddie_Sheet1_80: 16779472
+      Eddie_Sheet1_79: 1588052790
+      Eddie_Sheet1_19: 453758119
+      Eddie_Sheet1_56: 1140354204
+      Eddie_Sheet1_29: 1977576812
+      Eddie_Sheet1_21: -357843405
+      Eddie_Sheet1_15: -1817052569
+      Eddie_Sheet1_59: 494641988
+      Eddie_Sheet1_30: 715643321
+      Eddie_Sheet1_62: -562333910
+      Eddie_Sheet1_9: 217382212
+      Eddie_Sheet1_94: 1513857326
+      Eddie_Sheet1_49: 1060618699
+      Eddie_Sheet1_18: -1825815935
+      Eddie_Sheet1_67: 413382352
+      Eddie_Sheet1_101: 1511981033
+      Eddie_Sheet1_16: -371900451
+      Eddie_Sheet1_91: -1073288568
+      Eddie_Sheet1_4: 484825450
+      Eddie_Sheet1_12: -1754859203
+      Eddie_Sheet1_92: -370614370
+      Eddie_Sheet1_57: 2015621849
+      Eddie_Sheet1_70: 10221778
+      Eddie_Sheet1_96: 1262230729
+      Eddie_Sheet1_99: -1290171074
+      Eddie_Sheet1_60: -1168858190
+      Eddie_Sheet1_39: 150773658
+      Eddie_Sheet1_31: 421142731
+      Eddie_Sheet1_77: -1116276587
+      Eddie_Sheet1_55: -1980453477
+      Eddie_Sheet1_64: 716675629
+      Eddie_Sheet1_105: 1248231702
+      Eddie_Sheet1_88: 91974967
+      Eddie_Sheet1_73: 1681204973
+      Eddie_Sheet1_32: 183669062
+      Eddie_Sheet1_78: -132411341
+      Eddie_Sheet1_86: -1211314385
+      Eddie_Sheet1_90: -648810090
+      Eddie_Sheet1_10: -1449028199
+      Eddie_Sheet1_44: 464579812
+      Eddie_Sheet1_75: 1626791472
+      Eddie_Sheet1_2: 962645309
+      Eddie_Sheet1_50: 1410031389
+      Eddie_Sheet1_102: -2144844283
+      Eddie_Sheet1_22: 758353765
+      Eddie_Sheet1_61: 1324316692
+      Eddie_Sheet1_52: 1012134534
+      Eddie_Sheet1_68: 2012621435
+      Eddie_Sheet1_41: 88921862
+      Eddie_Sheet1_47: 1501678402
+      Eddie_Sheet1_34: -1384848062
+      Eddie_Sheet1_98: -814140157
+      Eddie_Sheet1_20: -1642941307
+      Eddie_Sheet1_36: 1335909267
+      Eddie_Sheet1_11: -2074768472
+      Eddie_Sheet1_0: 1274893044
+      Eddie_Sheet1_3: -676926833
+      Eddie_Sheet1_37: 1397157423
+      Eddie_Sheet1_54: -278535645
+      Eddie_Sheet1_74: -767165379
+      Eddie_Sheet1_72: 1659842825
+      Eddie_Sheet1_51: 1665099335
+      Eddie_Sheet1_48: -1760295838
+      Eddie_Sheet1_95: -1184989235
+      Eddie_Sheet1_26: 1843407157
+      Eddie_Sheet1_63: 690769817
+      Eddie_Sheet1_1: 1175818503
+      Eddie_Sheet1_7: 364105041
+      Eddie_Sheet1_87: -125641130
+      Eddie_Sheet1_82: 320241323
+      Eddie_Sheet1_76: -819074368
+      Eddie_Sheet1_93: -1836596049
+      Eddie_Sheet1_106: 208720941
+      Eddie_Sheet1_84: -1856925866
+      Eddie_Sheet1_97: -1294256219
+      Eddie_Sheet1_53: -1005697631
+      Eddie_Sheet1_5: 157035064
+      Eddie_Sheet1_38: 527604056
+      Eddie_Sheet1_104: 797189446
+      Eddie_Sheet1_6: 825585387
+      Eddie_Sheet1_45: 50072559
+      Eddie_Sheet1_58: 853401560
+      Eddie_Sheet1_71: -1177970435
+      Eddie_Sheet1_27: 986425561
+      Eddie_Sheet1_17: 723524847
+      Eddie_Sheet1_81: 599453657
+      Eddie_Sheet1_23: 358878979
+      Eddie_Sheet1_40: -843190456
+      Eddie_Sheet1_69: -2076341656
+      Eddie_Sheet1_28: -717861620
+      Eddie_Sheet1_100: 199197350
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

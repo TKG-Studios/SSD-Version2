@@ -339,13 +339,13 @@ AnimatorStateMachine:
     m_Position: {x: 348, y: 228, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110216718}
-    m_Position: {x: 348, y: -24, z: 0}
+    m_Position: {x: 340, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110230208}
-    m_Position: {x: 348, y: -84, z: 0}
+    m_Position: {x: 350, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102000012325375158}
-    m_Position: {x: 348, y: -144, z: 0}
+    m_Position: {x: 340, y: -180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 110194422}
@@ -354,8 +354,8 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 684, y: -72, z: 0}
-  m_EntryPosition: {x: 12, y: -36, z: 0}
+  m_AnyStatePosition: {x: 760, y: -70, z: 0}
+  m_EntryPosition: {x: 10, y: -30, z: 0}
   m_ExitPosition: {x: 12, y: -192, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 110229446}
@@ -396,7 +396,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Death
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102000013728524296}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0

@@ -35,28 +35,29 @@ public class Enemy : MonoBehaviour {
 		OnUnitSpawn(g);
 	}
 
-	void Awake(){
-		enemyName = GetName();
-	}
+	//void Awake()
+	//{
+	//	enemyName = GetName();
+	//}
 
 	//returns a random name from this list
-	string GetName(){
-		List<string> nameList = new List<string> { 
-			"Robert", 
-			"John",
-			"Jason",
-			"Anthony",
-			"Jeff",
-			"James",
-			"Daniel",
-			"George",
-			"Steven",
-			"Brian",
-			"Chris",
-			"Mark",
-			"David",
-			"Thomas",
-		};
-		return nameList[Random.Range(0, nameList.Count)];
-	}
+	//string GetName(){
+	//	List<string> nameList = new List<string> {
+	//		"Robert",
+	//		"John",
+	//		"Jason",
+	//		"Anthony",
+	//		"Jeff",
+	//		"James",
+	//		"Daniel",
+	//		"George",
+	//		"Steven",
+	//		"Brian",
+	//		"Chris",
+	//		"Mark",
+	//		"David",
+	//		"Thomas",
+	//	};
+	//	return nameList [Random.Range(0, nameList.Count)];
+	//}
 }
