@@ -1559,8 +1559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc6aac8fc164e954a9a6c69b786823cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelMusic: Music
-  playMusic: 0
+  LevelMusic: Music2
+  playMusic: 1
 --- !u!1001 &1666246894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1574,7 +1574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 187490, guid: bfe69dddf6d71a54587adc05737c7dbc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 408228, guid: bfe69dddf6d71a54587adc05737c7dbc, type: 3}
       propertyPath: m_RootOrder

@@ -89,7 +89,7 @@ public class InputManager : MonoBehaviour {
 		}
 
 		if(Input.GetKey(HealKey)){
-			CombatInputEvent("Heal");  /// TO DO --- Redefind Defend to heal
+			CombatInputEvent("Heal"); 
 		}
 
 		if(Input.GetKeyDown(JumpKey)){

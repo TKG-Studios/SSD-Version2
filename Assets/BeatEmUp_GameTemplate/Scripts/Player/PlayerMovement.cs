@@ -90,15 +90,18 @@ public class PlayerMovement : MonoBehaviour {
 
 			//start jump
 			if(playerState.currentState != PLAYERSTATE.JUMPING)	StartCoroutine (doJump());
+			
 		}
 	}
 
 	//jump sequence
 	public IEnumerator doJump() {
+		
+		
 		float t = 0;
 		Vector3 startPos = GFX.transform.localPosition;
 		Vector3 endPos = new Vector3 (startPos.x, startPos.y + jumpHeight, startPos.z);
-
+		
 		playerState.SetState (PLAYERSTATE.JUMPING);
 		isGrounded = false;
 		animator.Jump();
