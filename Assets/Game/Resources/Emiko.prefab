@@ -291,12 +291,12 @@ MonoBehaviour:
     attackType: 10
     inflictor: {fileID: 8283673112934265221}
     comboResetTime: 0.8
-  - damage: 2
+  - damage: 1
     range: 1.5
     attackType: 20
     inflictor: {fileID: 8283673112934265221}
     comboResetTime: 0.8
-  - damage: 3
+  - damage: 2
     range: 1.4
     attackType: 30
     inflictor: {fileID: 8283673112934265221}
@@ -307,12 +307,12 @@ MonoBehaviour:
     attackType: 10
     inflictor: {fileID: 8283673112934265221}
     comboResetTime: 0.95
-  - damage: 2
+  - damage: 1
     range: 2
     attackType: 50
     inflictor: {fileID: 8283673112934265221}
     comboResetTime: 0.95
-  - damage: 3
+  - damage: 2
     range: 2
     attackType: 30
     inflictor: {fileID: 8283673112934265221}
