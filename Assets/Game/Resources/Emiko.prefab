@@ -100,7 +100,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 62d880edb3ba39549a24ca1c20d291e8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -264,7 +264,7 @@ MonoBehaviour:
   Up: 273
   Down: 274
   walkSpeed: 3
-  jumpTime: 0.8
+  jumpTime: 1
   jumpHeight: 2.5
   rb: {fileID: 0}
   currentDirection: -1
