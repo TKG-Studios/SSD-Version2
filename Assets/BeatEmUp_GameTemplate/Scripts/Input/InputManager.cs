@@ -18,18 +18,25 @@ public class InputManager : MonoBehaviour {
 	public KeyCode KickKey = KeyCode.X;
 	public KeyCode HealKey = KeyCode.C;
 	public KeyCode JumpKey = KeyCode.Space;
+	public KeyCode PauseKey = KeyCode.Escape;
 
 	[Header("Joypad keys")]
 	public KeyCode JoypadPunch = KeyCode.JoystickButton2;
 	public KeyCode JoypadKick = KeyCode.JoystickButton3;
 	public KeyCode JoypadHeal = KeyCode.JoystickButton1;
 	public KeyCode JoypadJump = KeyCode.JoystickButton0;
+	public KeyCode JoypadPause = KeyCode.JoystickButton7;
 
 	//delegates
 	public delegate void InputEventHandler(Vector2 dir);
 	public static event InputEventHandler onInputEvent;
 	public delegate void CombatInputEventHandler(string action);
 	public static event CombatInputEventHandler onCombatInputEvent;
+
+	//Custom Delegates
+	public delegate void PauseInputHandler(string action);
+	public static event PauseInputHandler onPauseInput;
+
 	private GameSettings settings;
 
 	void OnEnable(){
@@ -48,6 +55,11 @@ public class InputManager : MonoBehaviour {
 
 	public static void CombatInputEvent(string action){
 		if( onCombatInputEvent != null) onCombatInputEvent(action);
+	}
+
+	public static void PauseInputEvent(string action)
+	{
+		if (onPauseInput != null) onPauseInput(action);
 	}
 
 	void Update(){
@@ -79,7 +91,7 @@ public class InputManager : MonoBehaviour {
 		InputEvent(dir);
 
 
-		//Combat input
+		//Combat input -- TO DO Make this only applicable on Game Active
 		if(Input.GetKeyDown(PunchKey)){
 			CombatInputEvent("Punch");
 		}
@@ -88,22 +100,33 @@ public class InputManager : MonoBehaviour {
 			CombatInputEvent("Kick");
 		}
 
-		if(Input.GetKey(HealKey)){
+		if(Input.GetKeyDown(HealKey)){
 			CombatInputEvent("Heal"); 
 		}
 
 		if(Input.GetKeyDown(JumpKey)){
 			CombatInputEvent("Jump");
 		}
-	}
 
-	void JoyPadControls(){
+		if (Input.GetKeyDown(PauseKey))
+		{
+			PauseInputEvent("Pause");
+		}
+
+
+        //TO DO --- Create Game Paused / Option Input
+
+    }
+
+    void JoyPadControls(){
 	 	float x = Input.GetAxis("Horizontal");
 	 	float y = Input.GetAxis("Vertical");
 		Vector2 dir = new Vector2(x,y);
 		InputEvent(dir.normalized);
 
-		if(Input.GetKeyDown(JoypadPunch)){
+        //Combat input -- TO DO Make this only applicable on Game Active
+
+        if (Input.GetKeyDown(JoypadPunch)){
 			CombatInputEvent("Punch");
 		}
 
@@ -118,7 +141,15 @@ public class InputManager : MonoBehaviour {
 		if(Input.GetKey(JoypadJump)){
 			CombatInputEvent("Jump");
 		}
-	}
+
+        if (Input.GetKeyDown(JoypadPause))
+        {
+            PauseInputEvent("Pause");
+        }
+
+
+		//TO DO --- Create Game Paused / Option Input
+    }
 
 	void CreateTouchScreenControls(){
 		GameObject canvas = GameObject.FindObjectOfType<Canvas>().gameObject;

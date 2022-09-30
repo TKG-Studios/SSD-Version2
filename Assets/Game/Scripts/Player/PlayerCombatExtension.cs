@@ -10,8 +10,8 @@ public class PlayerCombatExtension : PlayerCombat
     [HideInInspector]
     public int attackPointValue;
 
-    [HideInInspector]
-    private float healMeterIncrement = 10;
+    
+    public float healMeterIncrement = 10;
 
    void Start()
     {
