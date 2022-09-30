@@ -16,13 +16,13 @@ public class InputManager : MonoBehaviour {
 	public KeyCode Down = KeyCode.DownArrow;
 	public KeyCode PunchKey = KeyCode.Z;
 	public KeyCode KickKey = KeyCode.X;
-	public KeyCode DefendKey = KeyCode.C;
+	public KeyCode HealKey = KeyCode.C;
 	public KeyCode JumpKey = KeyCode.Space;
 
 	[Header("Joypad keys")]
 	public KeyCode JoypadPunch = KeyCode.JoystickButton2;
 	public KeyCode JoypadKick = KeyCode.JoystickButton3;
-	public KeyCode JoypadDefend = KeyCode.JoystickButton1;
+	public KeyCode JoypadHeal = KeyCode.JoystickButton1;
 	public KeyCode JoypadJump = KeyCode.JoystickButton0;
 
 	//delegates
@@ -88,8 +88,8 @@ public class InputManager : MonoBehaviour {
 			CombatInputEvent("Kick");
 		}
 
-		if(Input.GetKey(DefendKey)){
-			CombatInputEvent("Defend");  /// TO DO --- Redefind Defend to heal
+		if(Input.GetKey(HealKey)){
+			CombatInputEvent("Heal");  /// TO DO --- Redefind Defend to heal
 		}
 
 		if(Input.GetKeyDown(JumpKey)){
@@ -111,8 +111,8 @@ public class InputManager : MonoBehaviour {
 			CombatInputEvent("Kick");
 		}
 
-		if(Input.GetKey(JoypadDefend)){
-			CombatInputEvent("Defend");
+		if(Input.GetKey(JoypadHeal)){
+			CombatInputEvent("Heal");
 		}
 
 		if(Input.GetKey(JoypadJump)){

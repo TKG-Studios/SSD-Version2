@@ -22,7 +22,7 @@ public class PlayerCombatExtension : PlayerCombat
     {
         base.CombatInputEvent(action);
 
-        if (action == "Defend") //TO DO --- Redefine Input From Defend To Heal
+        if (action == "Heal")
         {
             if (UIHealMeter.Instance.isBarFull == true)
             {
