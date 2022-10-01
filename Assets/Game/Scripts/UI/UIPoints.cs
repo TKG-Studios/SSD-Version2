@@ -4,19 +4,27 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UIPoints : MonoBehaviour
 {
-    public static UIPoints Instance;
 
+    [HideInInspector]
     public int pointsValue = 0000000;
-
     public Text pointsText;
-    void Start()
+
+    private void OnEnable()
     {
-        Instance = this;
+        PlayerCombatExtension.PointsEvent += UpdatePlayerPoints;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
+        PlayerCombatExtension.PointsEvent -= UpdatePlayerPoints;
+    }
+
+
+    public void UpdatePlayerPoints(int points)
+    {
+        pointsValue += points;
         pointsText.text = string.Format("{0:000000}", pointsValue);
     }
+
+  
 }

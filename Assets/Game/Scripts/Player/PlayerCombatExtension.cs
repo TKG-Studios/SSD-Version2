@@ -9,9 +9,10 @@ public class PlayerCombatExtension : PlayerCombat
 
     [HideInInspector]
     public int attackPointValue;
-
-    
     public float healMeterIncrement = 10;
+
+    public delegate void PointsEventHandler(int points);
+    public static event PointsEventHandler PointsEvent;
 
    void Start()
     {
@@ -59,7 +60,8 @@ public class PlayerCombatExtension : PlayerCombat
         if (targetHit)
         {
             UIHealMeter.Instance.healMeterFill.fillAmount += (healMeterIncrement / 100);
-            UIPoints.Instance.pointsValue += GetAttackPointValue();
+            if (PointsEvent != null) PointsEvent(GetAttackPointValue());
+       
         }
     }
 
