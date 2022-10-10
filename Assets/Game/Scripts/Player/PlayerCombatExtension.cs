@@ -11,8 +11,8 @@ public class PlayerCombatExtension : PlayerCombat
     public int attackPointValue;
     public float healMeterIncrement = 10;
 
-    public delegate void PointsEventHandler(int points);
-    public static event PointsEventHandler PointsEvent;
+    //public delegate void PointsEventHandler(int points);
+    //public static event PointsEventHandler PointsEvent;
 
    void Start()
     {
@@ -56,32 +56,32 @@ public class PlayerCombatExtension : PlayerCombat
     public override void CheckForHit()
     {
         base.CheckForHit();
-        GetAttackPointValue();
+        //GetAttackPointValue();
         if (targetHit)
         {
             UIHealMeter.Instance.healMeterFill.fillAmount += (healMeterIncrement / 100);
-            if (PointsEvent != null) PointsEvent(GetAttackPointValue());
+            //if (PointsEvent != null) PointsEvent(GetAttackPointValue());
        
         }
     }
 
-    private int GetAttackPointValue() 
-    {
-        if (attackNum == 0)
-        {
-            attackPointValue = 50;
-        }
-        if (attackNum == 1)
-        {
-            attackPointValue = 100;
-        }
+    //private int GetAttackPointValue() 
+    //{
+    //    if (attackNum == 0)
+    //    {
+    //        attackPointValue = 50;
+    //    }
+    //    if (attackNum == 1)
+    //    {
+    //        attackPointValue = 100;
+    //    }
 
-        if (attackNum == 2)
-        {
-            attackPointValue = 150;
-        }
-        return attackPointValue;
-    }
+    //    if (attackNum == 2)
+    //    {
+    //        attackPointValue = 150;
+    //    }
+    //    return attackPointValue;
+    //}
 
   
 }

@@ -17,7 +17,16 @@ public class ItemActions : MonoBehaviour  {
 		if(pc != null) pc.EquipWeapon(item);
 	}
 
-	public void DestroyDrumBarrel(){
+	//Coins Action
+    public void GiveCoinsToPlayer()
+    {
+        CurrencySystem currency = target.GetComponent<CurrencySystem>();
+        if (currency != null && item != null) currency.AddCurrency(item.data);
+
+    }
+
+
+    public void DestroyDrumBarrel(){
 
 		//show hit effect
 		GameObject.Instantiate(Resources.Load("HitEffect"), transform.position + Vector3.up * 1.2f, Quaternion.identity);
