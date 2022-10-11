@@ -93,10 +93,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408228}
-  - component: {fileID: 11416912}
   - component: {fileID: 5027346}
   - component: {fileID: 6139744}
   - component: {fileID: 1127121146919525985}
+  - component: {fileID: 7407365261319301723}
   m_Layer: 8
   m_Name: Eddie
   m_TagString: Enemy
@@ -121,46 +121,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11416912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 159b1ca01d073f340985064527f5deaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRange: 1.6
-  closeRangeDistance: 2
-  midRangeDistance: 3
-  farRangeDistance: 4.5
-  walkSpeed: 2
-  enemyName: Eddie
-  sightDistance: 25
-  attackDamage: 2
-  attackInterval: 1
-  targetSpotted: 0
-  currencyArray:
-  - {fileID: 105114, guid: bf083525db5b18f4e9306799b63d6e6b, type: 3}
-  - {fileID: 105114, guid: 16bf556b80fd474489641eb062fcc555, type: 3}
-  - {fileID: 105114, guid: c3970c646f3927846ac44f01c36112e7, type: 3}
-  target: {fileID: 0}
-  range: 0
-  enemyTactic: 4
-  enemyState: 0
-  animator: {fileID: 0}
-  GFX: {fileID: 194592}
-  Shadow: {fileID: 21250028}
-  rb: {fileID: 0}
-  isDead: 0
-  YHitDistance: 0.4
-  lastAttackTime: 0
-  XDistance: 0
-  YDistance: 0
-  enableAI: 1
 --- !u!50 &5027346
 Rigidbody2D:
   serializedVersion: 4
@@ -224,6 +184,46 @@ MonoBehaviour:
   CurrentHp: 20
   invulnerable: 0
   xpToGive: 5
+--- !u!114 &7407365261319301723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba33cd77117548448347db837eff999, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRange: 1.5
+  closeRangeDistance: 2
+  midRangeDistance: 3
+  farRangeDistance: 4.5
+  walkSpeed: 2.5
+  enemyName: Eddie
+  sightDistance: 50
+  attackDamage: 2
+  attackInterval: 1
+  targetSpotted: 0
+  currencyArray:
+  - {fileID: 105114, guid: bf083525db5b18f4e9306799b63d6e6b, type: 3}
+  - {fileID: 105114, guid: 16bf556b80fd474489641eb062fcc555, type: 3}
+  - {fileID: 105114, guid: c3970c646f3927846ac44f01c36112e7, type: 3}
+  target: {fileID: 0}
+  range: 0
+  enemyTactic: 0
+  enemyState: 0
+  animator: {fileID: 0}
+  GFX: {fileID: 194592}
+  Shadow: {fileID: 21250028}
+  rb: {fileID: 0}
+  isDead: 0
+  YHitDistance: 0.4
+  lastAttackTime: 0
+  XDistance: 0
+  YDistance: 0
+  enableAI: 0
 --- !u!1 &194592
 GameObject:
   m_ObjectHideFlags: 0

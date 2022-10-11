@@ -7,7 +7,7 @@ public class EnemyAI : EnemyActions {
 	public float XDistance = 0;
 	public float YDistance = 0;
 	public bool enableAI;
-	private List<ENEMYSTATE> ActiveAIStates = new List<ENEMYSTATE> { ENEMYSTATE.IDLE, ENEMYSTATE.RUN, ENEMYSTATE.WALK }; //a list of states where the AI is executed
+	protected List<ENEMYSTATE> ActiveAIStates = new List<ENEMYSTATE> { ENEMYSTATE.IDLE, ENEMYSTATE.RUN, ENEMYSTATE.WALK }; //a list of states where the AI is executed
 	private List<ENEMYSTATE> HitStates = new List<ENEMYSTATE> { ENEMYSTATE.DEATH, ENEMYSTATE.KNOCKDOWN, ENEMYSTATE.KNOCKDOWNGROUNDED }; //a list of states where the enemy is hit
 
 	void Start(){
@@ -17,11 +17,11 @@ public class EnemyAI : EnemyActions {
 		RandomizeValues();
 	}
 
-	void OnEnable(){
+	public virtual void OnEnable(){
 		SetTarget2Player();
 	}
 
-	void Update(){
+    public virtual void Update(){
 		if(!isDead && enableAI){
 			if(ActiveAIStates.Contains(enemyState) && targetSpotted){
 				AI();
@@ -29,13 +29,13 @@ public class EnemyAI : EnemyActions {
 			} else {
 
 				//look for a target
-			 	Look4Target();
+				Look4Target();
 			}
 		}
 		UpdateSpriteSorting();
 	}
 
-	void AI(){
+	protected void AI(){
 		LookAtTarget();
 		range = GetRangeToTarget();
 
@@ -158,7 +158,7 @@ public class EnemyAI : EnemyActions {
 	}
 
 	//checks if the target is in sight
-	void Look4Target(){
+	protected void Look4Target(){
 		targetSpotted = DistanceToTargetX() < sightDistance;
 	}
 }
