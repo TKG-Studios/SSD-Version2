@@ -11,10 +11,14 @@ public class PlayerCombatExtension : PlayerCombat
     public int attackPointValue;
     public float healMeterIncrement = 10;
 
-    //public delegate void PointsEventHandler(int points);
-    //public static event PointsEventHandler PointsEvent;
+    //Points Not Used In Main Game
+    public delegate void PointsEventHandler(int points);
+    public static event PointsEventHandler PointsEvent;
 
-   void Start()
+    public delegate void HealBarHandler();
+    public static event HealBarHandler HealBarEvent;
+
+    void Start()
     {
         playerAnimator = GetComponentInChildren<PlayerAnimatorExtension>();
     }
@@ -59,29 +63,32 @@ public class PlayerCombatExtension : PlayerCombat
         //GetAttackPointValue();
         if (targetHit)
         {
-            UIHealMeter.Instance.healMeterFill.fillAmount += (healMeterIncrement / 100);
-            //if (PointsEvent != null) PointsEvent(GetAttackPointValue());
-       
+            if (HealBarEvent != null) HealBarEvent();
+
+            //Not Used In Main Game --- Save this for a mini game
+            if (PointsEvent != null) PointsEvent(GetAttackPointValue());
+
         }
     }
 
-    //private int GetAttackPointValue() 
-    //{
-    //    if (attackNum == 0)
-    //    {
-    //        attackPointValue = 50;
-    //    }
-    //    if (attackNum == 1)
-    //    {
-    //        attackPointValue = 100;
-    //    }
+    //Not Used In Main Game
+    private int GetAttackPointValue()
+    {
+        if (attackNum == 0)
+        {
+            attackPointValue = 50;
+        }
+        if (attackNum == 1)
+        {
+            attackPointValue = 100;
+        }
 
-    //    if (attackNum == 2)
-    //    {
-    //        attackPointValue = 150;
-    //    }
-    //    return attackPointValue;
-    //}
+        if (attackNum == 2)
+        {
+            attackPointValue = 150;
+        }
+        return attackPointValue;
+    }
 
-  
+
 }
