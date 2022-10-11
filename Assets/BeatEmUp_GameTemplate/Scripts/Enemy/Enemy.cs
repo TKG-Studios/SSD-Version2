@@ -16,6 +16,12 @@ public class Enemy : MonoBehaviour {
 	public int attackDamage = 2;
 	public float attackInterval = 1f;
 	public bool targetSpotted;
+
+
+	//Random Number That Will Determine The Amount Dropped or if dropped
+	private int diceRoll;
+	//Types Of Currency Available To Drop
+	public GameObject[] currencyArray;
 	    
 	//global event handler for enemies
 	public delegate void UnitEventHandler(GameObject Unit);
@@ -28,6 +34,12 @@ public class Enemy : MonoBehaviour {
 	public void DestroyUnit(){
 		if(OnUnitDestroy != null) OnUnitDestroy(gameObject);
 		Destroy(gameObject);
+
+		diceRoll = Random.Range(0, 3);
+		if (diceRoll < 3)
+		{
+			dropCurrency();
+		}
 	}
 
 	//create event
@@ -60,4 +72,10 @@ public class Enemy : MonoBehaviour {
 	//	};
 	//	return nameList [Random.Range(0, nameList.Count)];
 	//}
+
+
+	private void dropCurrency()
+	{
+		GameObject currency = Instantiate(currencyArray[diceRoll], transform.position, transform.rotation);
+	}
 }

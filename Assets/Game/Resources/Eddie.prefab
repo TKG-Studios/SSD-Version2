@@ -143,6 +143,10 @@ MonoBehaviour:
   attackDamage: 2
   attackInterval: 1
   targetSpotted: 0
+  currencyArray:
+  - {fileID: 105114, guid: bf083525db5b18f4e9306799b63d6e6b, type: 3}
+  - {fileID: 105114, guid: 16bf556b80fd474489641eb062fcc555, type: 3}
+  - {fileID: 105114, guid: c3970c646f3927846ac44f01c36112e7, type: 3}
   target: {fileID: 0}
   range: 0
   enemyTactic: 4

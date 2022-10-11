@@ -9,7 +9,8 @@ public class PlayerCombatExtension : PlayerCombat
 
     [HideInInspector]
     public int attackPointValue;
-    public float healMeterIncrement = 10;
+    public int healDivisor;
+ 
 
     //Points Not Used In Main Game
     public delegate void PointsEventHandler(int points);
@@ -21,23 +22,25 @@ public class PlayerCombatExtension : PlayerCombat
     void Start()
     {
         playerAnimator = GetComponentInChildren<PlayerAnimatorExtension>();
+      
     }
 
    public override void CombatInputEvent(string action)
     {
         base.CombatInputEvent(action);
 
-        if (action == "Heal")
+        if (action == "Heal" && UIHealMeter.instance.isBarFull == true)
         {
-            if (UIHealMeter.Instance.isBarFull == true)
-            {
-                UIHealMeter.Instance.healMeterFill.fillAmount = 0;
-                GetComponent<HealthSystem>().AddHealth(UIHealMeter.Instance.healAmount);
-            }
-            else
-            {
-         
-            }
+          
+                healDivisor = UIHealMeter.instance.healingBarDivisor;
+                UIHealMeter.instance.healMeterFill.fillAmount = 0;
+                GetComponent<HealthSystem>().AddHealth(CalculateHealAmount(healDivisor));
+              
+            
+           
+        } else if (UIHealMeter.instance.isBarFull == false)
+        {
+
         }
     }
 
@@ -90,5 +93,11 @@ public class PlayerCombatExtension : PlayerCombat
         return attackPointValue;
     }
 
+    private int CalculateHealAmount(int divisor)
+    {
+        
+        int healAmount = GetComponent<HealthSystem>().MaxHp / divisor;
+        return healAmount;
+    }
 
 }
