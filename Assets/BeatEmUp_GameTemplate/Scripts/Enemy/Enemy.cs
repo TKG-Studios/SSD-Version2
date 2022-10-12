@@ -88,6 +88,7 @@ public class Enemy : MonoBehaviour {
 	{
         GameObject xp = Instantiate(xpText, xpSpawnLocation.transform.position, xpSpawnLocation.transform.rotation);
         xp.GetComponentInChildren<TextMesh>().text = GetComponent<HealthSystemExtension>().xpToGive + " XP";
+        LevelUpSystem.instance.AddEXP(GetComponent<HealthSystemExtension>().xpToGive);
     }
 
 	private void dropCurrency()

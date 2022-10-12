@@ -33,7 +33,7 @@ public class HealthBar : MonoBehaviour {
 			nameField.text = go.GetComponent<Enemy>().enemyName;
 			if (percentage == 0)
 			{
-                LevelUpSystem.instance.AddEXP(go.GetComponent<HealthSystemExtension>().xpToGive);
+              
                 Invoke("HideOnDestroy", 2);
 
 			}

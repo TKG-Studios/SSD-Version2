@@ -23,7 +23,7 @@ public class LevelUpSystem : MonoBehaviour
     private void Start()
     {
         instance = this;
-        
+        currentXP = 99;
     }
 
 
@@ -38,7 +38,6 @@ public class LevelUpSystem : MonoBehaviour
             currentXP = (0 + xpAddedToNext);
             xPToNext = SetNextXP(xPToNext);
         }
-        Debug.Log(currentXP);
         return currentXP;
 
     }
