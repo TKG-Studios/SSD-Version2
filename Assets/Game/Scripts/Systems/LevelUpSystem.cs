@@ -23,7 +23,7 @@ public class LevelUpSystem : MonoBehaviour
     private void Start()
     {
         instance = this;
-        currentXP = 99;
+      
     }
 
 
@@ -35,6 +35,9 @@ public class LevelUpSystem : MonoBehaviour
         {
             xpAddedToNext = (currentXP - xPToNext);
             currentLevel++;
+            UpgradePunchAttackStrength(1);
+            UpgradeKickAttackStrength(1);
+            UpgradeJumpKickAttackStrength(1);
             currentXP = (0 + xpAddedToNext);
             xPToNext = SetNextXP(xPToNext);
         }
@@ -47,6 +50,35 @@ public class LevelUpSystem : MonoBehaviour
         xp = (xPToNext * xPMultiplier) + xPAdditive;
         if (onLevelChange != null) onLevelChange (currentLevel);
         return xp;
+    }
+
+    public void UpgradePunchAttackStrength(int attackDamage)
+    {
+
+        DamageObject[] punchAttacks = GetComponent<PlayerCombat>().PunchAttackData;
+
+        foreach (DamageObject punchAttack in punchAttacks)
+        {
+            punchAttack.damage += attackDamage;
+        }
+    }
+
+    public void UpgradeKickAttackStrength(int attackDamage)
+    {
+        DamageObject[] kickAttacks = GetComponent<PlayerCombat>().KickAttackData;
+
+        foreach (DamageObject kickAttack in kickAttacks)
+        {
+           kickAttack.damage += attackDamage;
+        }
+    }
+
+
+    public void UpgradeJumpKickAttackStrength(int attackDamage)
+    {
+        DamageObject jumpKickAttack = GetComponent<PlayerCombat>().JumpKickData;
+
+        jumpKickAttack.damage += attackDamage;
     }
 
 
