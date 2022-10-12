@@ -8,7 +8,16 @@ public class PauseScreen : MonoBehaviour
 
     public static PauseScreen instance;
     public GameObject pauseScreen;
-    
+
+
+
+
+    //Expose Level To Player
+    public Text level;
+    public Text CurrentXP;
+    public Text XPToNext;
+
+    private int currentLevel;
 
 
 
@@ -16,9 +25,17 @@ public class PauseScreen : MonoBehaviour
     {
         instance = this;
         pauseScreen.SetActive(false);
+    
     }
 
-    
+ 
+
+    private void Update()
+    {
+        level.text = "Level: " + LevelUpSystem.instance.currentLevel;
+        CurrentXP.text = "EXP: " + LevelUpSystem.instance.currentXP;
+        XPToNext.text = "To Next: " + LevelUpSystem.instance.xPToNext.ToString("F0");
+    }
 
 
 }

@@ -10,6 +10,7 @@ public class LevelUpSystem : MonoBehaviour
     public static event OnLevelChange onLevelChange;
 
 
+
     [HideInInspector]
     public int currentLevel = 1;
     [HideInInspector]
@@ -20,16 +21,29 @@ public class LevelUpSystem : MonoBehaviour
     public float xPAdditive = 10f;
 
 
+    private void OnEnable()
+    {
+        Enemy.onGainXP += AddEXP;
+    }
+
+    private void OnDisable()
+    {
+        Enemy.onGainXP -= AddEXP;
+    }
+
+
     private void Start()
     {
         instance = this;
-      
+        currentXP = 99;
     }
 
 
     public float AddEXP(float xp)
     {
+        
         currentXP += xp;
+        xPToNext -= xp;
         float xpAddedToNext;
         if (currentXP >= xPToNext)
         {
@@ -41,6 +55,7 @@ public class LevelUpSystem : MonoBehaviour
             currentXP = (0 + xpAddedToNext);
             xPToNext = SetNextXP(xPToNext);
         }
+    
         return currentXP;
 
     }

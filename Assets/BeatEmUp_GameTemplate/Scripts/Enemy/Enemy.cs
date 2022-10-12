@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 
 [System.Serializable]
-public class Enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour
+{
 
 	//public int HP;
 	public float attackRange = 1.5f;
@@ -20,15 +21,19 @@ public class Enemy : MonoBehaviour {
 	public bool targetSpotted;
 
 
+	//Tied to Experience System
 	public GameObject xpText;
 	public GameObject xpSpawnLocation;
+
+	protected float xpToGive;
 
 
 	//Random Number That Will Determine The Amount Dropped or if dropped
 	private int diceRoll;
 	//Types Of Currency Available To Drop
 	public GameObject[] currencyArray;
-	    
+
+
 	//global event handler for enemies
 	public delegate void UnitEventHandler(GameObject Unit);
 	public static event UnitEventHandler OnUnitSpawn;
@@ -37,11 +42,22 @@ public class Enemy : MonoBehaviour {
 	public static event UnitEventHandler OnUnitDestroy;
 
 
+    public delegate float OnGainXP(float xp);
+    public static event OnGainXP onGainXP;
 
-	//destroy event
-	public void DestroyUnit(){
-        gainXp(); //To Do -- Figure out How To Make this appear earlier
-        if (OnUnitDestroy != null) OnUnitDestroy(gameObject);
+    void Awake()
+	{
+        xpToGive = GetComponent<HealthSystemExtension>().xpToGive;
+	
+    }
+
+
+
+    //destroy event
+    public void DestroyUnit()
+	{
+		gainXp(); //To Do -- Figure out How To Make this appear earlier
+		if (OnUnitDestroy != null) OnUnitDestroy(gameObject);
 		Destroy(gameObject);
 
 		diceRoll = Random.Range(0, 3);
@@ -52,7 +68,8 @@ public class Enemy : MonoBehaviour {
 	}
 
 	//create event
-	public void CreateUnit(GameObject g){
+	public void CreateUnit(GameObject g)
+	{
 		OnUnitSpawn(g);
 	}
 
@@ -86,13 +103,16 @@ public class Enemy : MonoBehaviour {
 
 	protected void gainXp()
 	{
-        GameObject xp = Instantiate(xpText, xpSpawnLocation.transform.position, xpSpawnLocation.transform.rotation);
-        xp.GetComponentInChildren<TextMesh>().text = GetComponent<HealthSystemExtension>().xpToGive + " XP";
-        LevelUpSystem.instance.AddEXP(GetComponent<HealthSystemExtension>().xpToGive);
+		GameObject xp = Instantiate(xpText, xpSpawnLocation.transform.position, xpSpawnLocation.transform.rotation);
+		xp.GetComponentInChildren<TextMesh>().text = xpToGive + " XP";
+        if (onGainXP != null) onGainXP(xpToGive);
     }
+
+
 
 	private void dropCurrency()
 	{
-        GameObject currency = Instantiate(currencyArray[diceRoll], transform.position, transform.rotation);
+		GameObject currency = Instantiate(currencyArray[diceRoll], transform.position, transform.rotation);
 	}
+
 }
