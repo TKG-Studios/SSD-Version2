@@ -291,17 +291,17 @@ MonoBehaviour:
     range: 1.5
     attackType: 10
     inflictor: {fileID: 8283673112934265221}
-    comboResetTime: 0.98
+    comboResetTime: 1
   - damage: 1
     range: 1.5
     attackType: 20
     inflictor: {fileID: 8283673112934265221}
-    comboResetTime: 0.98
+    comboResetTime: 1
   - damage: 2
     range: 1.4
     attackType: 30
     inflictor: {fileID: 8283673112934265221}
-    comboResetTime: 0.5
+    comboResetTime: 1
   KickAttackData:
   - damage: 1
     range: 2

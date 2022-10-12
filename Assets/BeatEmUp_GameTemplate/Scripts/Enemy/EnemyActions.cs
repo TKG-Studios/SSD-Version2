@@ -201,13 +201,13 @@ public class EnemyActions : Enemy {
 
 	//remove enemy from the playing field with a flicker effect
 	public IEnumerator RemoveEnemy(){
-
-		float osc;
+      
+        float osc;
 		float speed = 3f;
 		float startTime = Time.time;
-
-		//pause before flickering start
-		yield return new WaitForSeconds(1.5f);
+        
+        //pause before flickering start
+        yield return new WaitForSeconds(1.5f);
 
 		while(true){
 			osc = Mathf.Sin((Time.time - startTime) * speed);

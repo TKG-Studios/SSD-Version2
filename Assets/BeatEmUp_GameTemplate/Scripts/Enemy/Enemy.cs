@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 [System.Serializable]
 public class Enemy : MonoBehaviour {
@@ -18,6 +20,10 @@ public class Enemy : MonoBehaviour {
 	public bool targetSpotted;
 
 
+	public GameObject xpText;
+	public GameObject xpSpawnLocation;
+
+
 	//Random Number That Will Determine The Amount Dropped or if dropped
 	private int diceRoll;
 	//Types Of Currency Available To Drop
@@ -30,9 +36,12 @@ public class Enemy : MonoBehaviour {
 	//global event Handler for destroying units
 	public static event UnitEventHandler OnUnitDestroy;
 
+
+
 	//destroy event
 	public void DestroyUnit(){
-		if(OnUnitDestroy != null) OnUnitDestroy(gameObject);
+        gainXp(); //To Do -- Figure out How To Make this appear earlier
+        if (OnUnitDestroy != null) OnUnitDestroy(gameObject);
 		Destroy(gameObject);
 
 		diceRoll = Random.Range(0, 3);
@@ -46,6 +55,7 @@ public class Enemy : MonoBehaviour {
 	public void CreateUnit(GameObject g){
 		OnUnitSpawn(g);
 	}
+
 
 	//void Awake()
 	//{
@@ -74,8 +84,14 @@ public class Enemy : MonoBehaviour {
 	//}
 
 
+	protected void gainXp()
+	{
+        GameObject xp = Instantiate(xpText, xpSpawnLocation.transform.position, xpSpawnLocation.transform.rotation);
+        xp.GetComponentInChildren<TextMesh>().text = GetComponent<HealthSystemExtension>().xpToGive + " XP";
+    }
+
 	private void dropCurrency()
 	{
-		GameObject currency = Instantiate(currencyArray[diceRoll], transform.position, transform.rotation);
+        GameObject currency = Instantiate(currencyArray[diceRoll], transform.position, transform.rotation);
 	}
 }
