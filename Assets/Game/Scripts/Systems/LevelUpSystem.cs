@@ -35,7 +35,7 @@ public class LevelUpSystem : MonoBehaviour
     private void Start()
     {
         instance = this;
-        currentXP = 99;
+      
     }
 
 
