@@ -17,10 +17,6 @@ public class PauseScreen : MonoBehaviour
     public Text CurrentXP;
     public Text XPToNext;
 
-    private int currentLevel;
-
-
-
     private void Start()
     {
         instance = this;
@@ -33,8 +29,8 @@ public class PauseScreen : MonoBehaviour
     private void Update()
     {
         level.text = "Level: " + LevelUpSystem.instance.currentLevel;
-        CurrentXP.text = "EXP: " + LevelUpSystem.instance.currentXP;
-        XPToNext.text = "To Next: " + LevelUpSystem.instance.xPToNext.ToString("F0");
+        CurrentXP.text = "EXP: " + LevelUpSystem.instance.currentXP.ToString("F0");
+        XPToNext.text = "To Next: " + LevelUpSystem.instance.neededXp.ToString("F0");
     }
 
 

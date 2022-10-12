@@ -14,9 +14,12 @@ public class LevelUpSystem : MonoBehaviour
     [HideInInspector]
     public int currentLevel = 1;
     [HideInInspector]
-    public float xPToNext = 100f;
+    public float xPToNext = 100;
+    [HideInInspector]
+    public float neededXp;
     [HideInInspector]
     public float currentXP;
+
     public float xPMultiplier = 1.04f;
     public float xPAdditive = 10f;
 
@@ -30,12 +33,15 @@ public class LevelUpSystem : MonoBehaviour
     {
         Enemy.onGainXP -= AddEXP;
     }
-
+    private void Awake()
+    {
+       
+    }
 
     private void Start()
     {
         instance = this;
-      
+        neededXp = xPToNext;
     }
 
 
@@ -43,7 +49,7 @@ public class LevelUpSystem : MonoBehaviour
     {
         
         currentXP += xp;
-        xPToNext -= xp;
+        neededXp -= xp;
         float xpAddedToNext;
         if (currentXP >= xPToNext)
         {
@@ -54,6 +60,7 @@ public class LevelUpSystem : MonoBehaviour
             UpgradeJumpKickAttackStrength(1);
             currentXP = (0 + xpAddedToNext);
             xPToNext = SetNextXP(xPToNext);
+            neededXp = xPToNext;
         }
     
         return currentXP;
@@ -64,6 +71,7 @@ public class LevelUpSystem : MonoBehaviour
     {
         xp = (xPToNext * xPMultiplier) + xPAdditive;
         if (onLevelChange != null) onLevelChange (currentLevel);
+        neededXp = xPToNext;
         return xp;
     }
 
