@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ec02f11cc4d9df4ca1a83211a9ce2bd
+guid: 72e9aaac522b79043b9d8bbf565af833
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Eddie_Wakeup_0
+      name: Eddie_WakeUp_0
       rect:
         serializedVersion: 2
-        x: 943
-        y: 764
-        width: 88
-        height: 4
+        x: 1
+        y: 2
+        width: 77
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 223ae5cec2a025442875082a02113868
-      internalID: 1753637964
+      spriteID: 7f6771fa049cc674f84af39e7ce85870
+      internalID: -1636123897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_1
+      name: Eddie_WakeUp_1
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 764
-        width: 102
-        height: 4
+        x: 97
+        y: 0
+        width: 77
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 810ebe829f495a844bc24ffea9e752fa
-      internalID: 1935976639
+      spriteID: 9b209909b54ab214e9428c343e4814c4
+      internalID: 2029293627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_2
+      name: Eddie_WakeUp_2
       rect:
         serializedVersion: 2
-        x: 1714
-        y: 764
-        width: 89
-        height: 4
+        x: 193
+        y: 0
+        width: 77
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,62 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e704b18a898d474bbfa4b9c387b80f3
-      internalID: 8803715
+      spriteID: b09321ff198cd0e4d95f4d257d534a6b
+      internalID: 548778888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_3
+      name: Eddie_WakeUp_3
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 764
-        width: 157
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abdda4ca3d5afc24688d32eb3fbeb2b8
-      internalID: 659837020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_4
-      rect:
-        serializedVersion: 2
-        x: 2577
-        y: 764
-        width: 70
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bafd8d54e7723c248b46a4ab4f54ea21
-      internalID: 1425634453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_5
-      rect:
-        serializedVersion: 2
-        x: 3328
-        y: 764
+        x: 289
+        y: 1
         width: 72
-        height: 4
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e2dc2934b2ad2640aab699f617fe8fc
-      internalID: -226958089
+      spriteID: d7c4247c10b2d2f4a86a4dbb610d37a7
+      internalID: -1777204516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_6
+      name: Eddie_WakeUp_4
       rect:
         serializedVersion: 2
-        x: 4099
-        y: 764
-        width: 67
-        height: 4
+        x: 385
+        y: 1
+        width: 72
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16702ebb272adf04c95ff536b4476d67
-      internalID: 490025864
+      spriteID: e73769db96c1d4e42b2dbfbdc4d4396e
+      internalID: -272626191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_7
+      name: Eddie_WakeUp_5
       rect:
         serializedVersion: 2
-        x: 4408
-        y: 764
-        width: 21
-        height: 4
+        x: 484
+        y: 1
+        width: 70
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0da75d996ad41d545877b0222e51c879
-      internalID: -522302563
+      spriteID: b76931b18625bf14e8021a1ea1cf5213
+      internalID: -142125509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_8
+      name: Eddie_WakeUp_6
       rect:
         serializedVersion: 2
-        x: 11809
-        y: 764
-        width: 90
-        height: 4
+        x: 591
+        y: 2
+        width: 58
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77b102311a573c748a84fb0d2775ca06
-      internalID: 165280368
+      spriteID: a07eb20fff29c00489d34ade9d842e0c
+      internalID: -27308012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_9
+      name: Eddie_WakeUp_7
       rect:
         serializedVersion: 2
-        x: 12574
-        y: 764
-        width: 90
-        height: 4
+        x: 702
+        y: 2
+        width: 43
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fee3f18f3465b04c9bf2f6691a675fe
-      internalID: -882093061
+      spriteID: ee48f307c20874246b4ef5cacc551893
+      internalID: 2138372792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_10
+      name: Eddie_WakeUp_8
       rect:
         serializedVersion: 2
-        x: 12681
-        y: 764
-        width: 46
-        height: 4
+        x: 806
+        y: 2
+        width: 35
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fe42a6011aaf96409e8fbfcaee562d5
-      internalID: -1841377529
+      spriteID: 0e92b85c3aade734ab5ffdcab4c234ef
+      internalID: 815930354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_11
+      name: Eddie_WakeUp_9
       rect:
         serializedVersion: 2
-        x: 13354
-        y: 764
-        width: 157
-        height: 4
+        x: 909
+        y: 2
+        width: 28
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3756ea6236014b04e92654163f60cc6e
-      internalID: 1809722369
+      spriteID: 75cf7214bfe07de4aa045e4d985d7978
+      internalID: 1781048507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_12
+      name: Eddie_WakeUp_10
       rect:
         serializedVersion: 2
-        x: 14128
-        y: 764
-        width: 87
-        height: 4
+        x: 1004
+        y: 2
+        width: 29
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a570939d0e78c66458be561c63294417
-      internalID: -1137186123
+      spriteID: 68e1dd349b2b18342bf407529cd1ff0d
+      internalID: -2003961428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_13
+      name: Eddie_WakeUp_11
       rect:
         serializedVersion: 2
-        x: 14239
-        y: 764
-        width: 75
-        height: 4
+        x: 1099
+        y: 2
+        width: 30
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,20 +361,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73fbf72390d9aaa40bd4908632434827
-      internalID: -266213183
+      spriteID: e50c3aedb15678949a446ee7b4e82d94
+      internalID: 1810444443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_14
+      name: Eddie_WakeUp_12
       rect:
         serializedVersion: 2
-        x: 14899
-        y: 764
-        width: 82
-        height: 4
+        x: 1189
+        y: 2
+        width: 36
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01bf385c46473b64a98334ce52e8240d
-      internalID: -1781081469
+      spriteID: 7883120d6f2492c469208fa9ac89491f
+      internalID: -903453159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_15
+      name: Eddie_WakeUp_13
       rect:
         serializedVersion: 2
-        x: 15004
-        y: 764
-        width: 75
-        height: 4
+        x: 1282
+        y: 2
+        width: 39
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,20 +403,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a141934d64d967d44906ebc453fd4ab7
-      internalID: 514159717
+      spriteID: e9970f454f234524bb1767931e1788af
+      internalID: 1644485212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_16
+      name: Eddie_WakeUp_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4
-        width: 634
-        height: 150
+        x: 1375
+        y: 2
+        width: 42
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,20 +424,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a64f4e88a32de45bd40a91ed39d47c
-      internalID: 1526330462
+      spriteID: 473f44edf9ae7c448a5ca6616c266a25
+      internalID: -1126162323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_17
+      name: Eddie_WakeUp_15
       rect:
         serializedVersion: 2
-        x: 769
+        x: 1476
         y: 0
-        width: 630
-        height: 199
+        width: 37
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,20 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1e938053e5679c4d8cecba8814d5cfa
-      internalID: -135149272
+      spriteID: 0278c1d1d2a1a0d49bd158b3d42b2347
+      internalID: -2144662627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_18
+      name: Eddie_WakeUp_16
       rect:
         serializedVersion: 2
-        x: 1534
+        x: 1569
         y: 0
-        width: 637
-        height: 147
+        width: 30
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,20 +466,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebffe7d76e7ffad4a8107245419885c0
-      internalID: 422402134
+      spriteID: 6fb02fe25c416cc46b2efed460c96ca9
+      internalID: 1614703667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_19
+      name: Eddie_WakeUp_17
       rect:
         serializedVersion: 2
-        x: 2299
+        x: 1670
         y: 0
-        width: 600
-        height: 236
+        width: 26
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bedfa0733f9d2554490aaec8687d0b90
-      internalID: -1248279394
+      spriteID: 0e7485b29c140bd4bb629d1ce4c78ff6
+      internalID: 1804199064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_20
+      name: Eddie_WakeUp_18
       rect:
         serializedVersion: 2
-        x: 3071
+        x: 1767
         y: 0
-        width: 593
-        height: 275
+        width: 24
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,20 +508,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 327f9fa18bf4cc94aac5997b8e538e57
-      internalID: 1356102765
+      spriteID: 2526ee06818398543aa0f8c13338c2e6
+      internalID: 907054246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eddie_Wakeup_21
+      name: Eddie_WakeUp_19
       rect:
         serializedVersion: 2
-        x: 3860
+        x: 1863
         y: 0
-        width: 584
-        height: 228
+        width: 24
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,323 +529,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e45da97d04369419a965cff3a0446d
-      internalID: -879115641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_22
-      rect:
-        serializedVersion: 2
-        x: 4721
-        y: 4
-        width: 480
-        height: 376
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 900936a79bc4d6a4e9111dae3985b31d
-      internalID: 1677563337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_23
-      rect:
-        serializedVersion: 2
-        x: 5606
-        y: 4
-        width: 364
-        height: 436
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 343bb2ab8c743674ea43e175a7115264
-      internalID: -1921110765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_24
-      rect:
-        serializedVersion: 2
-        x: 6439
-        y: 4
-        width: 300
-        height: 459
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17745a37c34ae3042b9ec295d2b90c33
-      internalID: -783131490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_25
-      rect:
-        serializedVersion: 2
-        x: 7264
-        y: 4
-        width: 240
-        height: 478
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0eedef92e38d66a43b27623686dffa24
-      internalID: 1795871769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_26
-      rect:
-        serializedVersion: 2
-        x: 8021
-        y: 4
-        width: 255
-        height: 478
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82acb7b03722cbd43b8fc5d732d8fd38
-      internalID: -926376001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_27
-      rect:
-        serializedVersion: 2
-        x: 8779
-        y: 4
-        width: 262
-        height: 478
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ab8999778039a14a801e8a53188e1c8
-      internalID: 1291065971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_28
-      rect:
-        serializedVersion: 2
-        x: 9500
-        y: 4
-        width: 310
-        height: 467
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9813dc73d4a113468a002803515763b
-      internalID: 910606172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_29
-      rect:
-        serializedVersion: 2
-        x: 10249
-        y: 4
-        width: 330
-        height: 451
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50b5046e7f3d1264b8dec88c5d432a6c
-      internalID: 600331236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_30
-      rect:
-        serializedVersion: 2
-        x: 10991
-        y: 4
-        width: 353
-        height: 436
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6769a3e28c52ce44d938df4fac65a2cf
-      internalID: -1881998451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_31
-      rect:
-        serializedVersion: 2
-        x: 11801
-        y: 0
-        width: 315
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 203f35b24b380334199504f5262ee2cb
-      internalID: -2053873799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_32
-      rect:
-        serializedVersion: 2
-        x: 12544
-        y: 0
-        width: 255
-        height: 471
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c025815401a92dd4d9f93edb39162b77
-      internalID: 373137822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_33
-      rect:
-        serializedVersion: 2
-        x: 13350
-        y: 0
-        width: 229
-        height: 546
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87e76ac6ffb0be04cb061a66b6261e4e
-      internalID: -1793122256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_34
-      rect:
-        serializedVersion: 2
-        x: 14126
-        y: 0
-        width: 210
-        height: 546
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e1d105204c5f8b4ca54c920b972de89
-      internalID: -481189418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_35
-      rect:
-        serializedVersion: 2
-        x: 14892
-        y: 0
-        width: 216
-        height: 546
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e740423487bf48946bc876cec4c5ae0f
-      internalID: -2005564356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eddie_Wakeup_36
-      rect:
-        serializedVersion: 2
-        x: 15356
-        y: 42
-        width: 4
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3cbaf8d440bf41409509035686fd761
-      internalID: 824655379
+      spriteID: f06c50bc89b728e43b2d4b271dcff37a
+      internalID: -677122067
       vertices: []
       indices: 
       edges: []
@@ -903,43 +546,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Eddie_Wakeup_2: 8803715
-      Eddie_Wakeup_7: -522302563
-      Eddie_Wakeup_26: -926376001
-      Eddie_Wakeup_8: 165280368
-      Eddie_Wakeup_32: 373137822
-      Eddie_Wakeup_22: 1677563337
-      Eddie_Wakeup_28: 910606172
-      Eddie_Wakeup_21: -879115641
-      Eddie_Wakeup_33: -1793122256
-      Eddie_Wakeup_35: -2005564356
-      Eddie_Wakeup_36: 824655379
-      Eddie_Wakeup_30: -1881998451
-      Eddie_Wakeup_14: -1781081469
-      Eddie_Wakeup_13: -266213183
-      Eddie_Wakeup_25: 1795871769
-      Eddie_Wakeup_31: -2053873799
-      Eddie_Wakeup_12: -1137186123
-      Eddie_Wakeup_34: -481189418
-      Eddie_Wakeup_16: 1526330462
-      Eddie_Wakeup_27: 1291065971
-      Eddie_Wakeup_0: 1753637964
-      Eddie_Wakeup_10: -1841377529
-      Eddie_Wakeup_3: 659837020
-      Eddie_Wakeup_19: -1248279394
-      Eddie_Wakeup_11: 1809722369
-      Eddie_Wakeup_15: 514159717
-      Eddie_Wakeup_20: 1356102765
-      Eddie_Wakeup_9: -882093061
-      Eddie_Wakeup_4: 1425634453
-      Eddie_Wakeup_17: -135149272
-      Eddie_Wakeup_18: 422402134
-      Eddie_Wakeup_1: 1935976639
-      Eddie_Wakeup_6: 490025864
-      Eddie_Wakeup_24: -783131490
-      Eddie_Wakeup_23: -1921110765
-      Eddie_Wakeup_5: -226958089
-      Eddie_Wakeup_29: 600331236
+      Eddie_WakeUp_6: -27308012
+      Eddie_WakeUp_4: -272626191
+      Eddie_WakeUp_5: -142125509
+      Eddie_WakeUp_12: -903453159
+      Eddie_WakeUp_16: 1614703667
+      Eddie_WakeUp_19: -677122067
+      Eddie_WakeUp_13: 1644485212
+      Eddie_WakeUp_2: 548778888
+      Eddie_WakeUp_8: 815930354
+      Eddie_WakeUp_18: 907054246
+      Eddie_WakeUp_10: -2003961428
+      Eddie_WakeUp_0: -1636123897
+      Eddie_WakeUp_9: 1781048507
+      Eddie_WakeUp_3: -1777204516
+      Eddie_WakeUp_1: 2029293627
+      Eddie_WakeUp_11: 1810444443
+      Eddie_WakeUp_14: -1126162323
+      Eddie_WakeUp_17: 1804199064
+      Eddie_WakeUp_15: -2144662627
+      Eddie_WakeUp_7: 2138372792
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
