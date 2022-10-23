@@ -23,9 +23,9 @@ public class MainMenu : MonoBehaviour {
 
 	void Start(){
 
-		startGame();
+		//startGame();
 		//Start fade in
-		//Invoke("FadeIn", 1f);
+		Invoke("FadeIn", 1f);
 	}
 
 	public void StartGame(){
@@ -61,8 +61,7 @@ public class MainMenu : MonoBehaviour {
 		FadeIn();
 		gameObject.SetActive(false);
 
-
-
+		GameManager.instance.changeState(GameManager.GameStates.LevelStart);
         //start 1st enemy wave
         EnemyWaveSystem EWS = GameObject.FindObjectOfType<EnemyWaveSystem>();
         if (EWS != null) EWS.OnLevelStart();

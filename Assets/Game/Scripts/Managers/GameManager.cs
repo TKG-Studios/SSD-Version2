@@ -5,12 +5,20 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
+    public static GameManager instance;
     public GameStates currentState;
 
 
+    public delegate void StateChangeEventHandler();
+    public static event StateChangeEventHandler stateChange;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     private void OnEnable()
     {
-        changeState(GameStates.LevelActive);
+      
     }
     public enum GameStates
     {
@@ -25,8 +33,12 @@ public class GameManager : MonoBehaviour
 
     public GameStates changeState(GameStates newState)
     {
+   
         currentState = newState;
+        if (stateChange != null) stateChange();
         return currentState;
     }
+
+
 
 }

@@ -59,6 +59,8 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void Update() {
+
+	
 		UpdateSortingOrder ();
 	}
 
@@ -131,7 +133,7 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	//move the character
-	void Move(Vector3 vector) {
+	public void Move(Vector3 vector) {
 		if (playerState.currentState != PLAYERSTATE.JUMPING && playerState.currentState != PLAYERSTATE.JUMPKICK) {
 
 			//removes any existing y offset

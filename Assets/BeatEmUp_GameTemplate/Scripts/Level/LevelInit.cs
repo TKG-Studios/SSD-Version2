@@ -26,10 +26,9 @@ public class LevelInit : MonoBehaviour {
 		//create UI
 		if(!GameObject.FindGameObjectWithTag("UI"))	GameObject.Instantiate(Resources.Load("UI"), Vector3.zero, Quaternion.identity);
 
-		if (!GameObject.FindGameObjectWithTag("HUD")) GameObject.Instantiate(Resources.Load("PlayerHUD"), Vector3.zero, Quaternion.identity);
 	
 		//create Game Camera
-		if(!GameObject.FindObjectOfType<CameraFollow>()) GameObject.Instantiate(Resources.Load("GameCamera"), new Vector3(0,0,-10), Quaternion.identity);
+		if(!GameObject.FindObjectOfType<CameraFollow>()) GameObject.Instantiate(Resources.Load("GameCamera"), new Vector3(0,-6,-10), Quaternion.identity);
 
 		//start music
 		if(playMusic) Invoke("PlayMusic", .1f);

@@ -12,8 +12,11 @@ public class PlayerAnimator : MonoBehaviour {
 	}
 
 	public void Idle() {
-		animator.SetTrigger ("Idle");
-		animator.SetBool("Walk", false);
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
+			animator.SetTrigger("Idle");
+			animator.SetBool("Walk", false);
+		}
 	}
 
 	public void Walk() {

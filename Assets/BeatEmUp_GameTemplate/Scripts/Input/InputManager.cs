@@ -50,16 +50,25 @@ public class InputManager : MonoBehaviour {
 	}
 
 	public static void InputEvent(Vector2 dir){
-		if( onInputEvent != null) onInputEvent(dir);
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
+            if (onInputEvent != null) onInputEvent(dir);
+        }
+	
 	}
 
 	public static void CombatInputEvent(string action){
-		if( onCombatInputEvent != null) onCombatInputEvent(action);
+	
+			if (onCombatInputEvent != null) onCombatInputEvent(action);
+		
 	}
 
 	public static void PauseInputEvent(string action)
 	{
-		if (onPauseInput != null) onPauseInput(action);
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
+			if (onPauseInput != null) onPauseInput(action);
+		}
 	}
 
 	void Update(){
@@ -91,23 +100,29 @@ public class InputManager : MonoBehaviour {
 		InputEvent(dir);
 
 
-		//Combat input -- TO DO Make this only applicable on Game Active
-		if(Input.GetKeyDown(PunchKey)){
-			CombatInputEvent("Punch");
-		}
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
+			//Combat input -- TO DO Make this only applicable on Game Active
+			if (Input.GetKeyDown(PunchKey))
+			{
+				CombatInputEvent("Punch");
+			}
 
-		if(Input.GetKeyDown(KickKey)){
-			CombatInputEvent("Kick");
-		}
+			if (Input.GetKeyDown(KickKey))
+			{
+				CombatInputEvent("Kick");
+			}
 
-		if(Input.GetKeyDown(HealKey)){
-			CombatInputEvent("Heal"); 
-		}
+			if (Input.GetKeyDown(HealKey))
+			{
+				CombatInputEvent("Heal");
+			}
 
-		if(Input.GetKeyDown(JumpKey)){
-			CombatInputEvent("Jump");
+			if (Input.GetKeyDown(JumpKey))
+			{
+				CombatInputEvent("Jump");
+			}
 		}
-
 		if (Input.GetKeyDown(PauseKey))
 		{
 			PauseInputEvent("Pause");

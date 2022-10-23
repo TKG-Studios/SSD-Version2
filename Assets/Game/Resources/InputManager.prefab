@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c6bbd85ce47f9d46990aab68c46ec0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: 0
+  controller: 1
   Left: 276
   Right: 275
   Up: 273

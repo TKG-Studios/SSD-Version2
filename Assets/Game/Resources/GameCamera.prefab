@@ -98,6 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AdditionalOffset: 0
-  followTarget: {fileID: 0}
+  followTarget: {fileID: 171854}
   LeftClamp: {x: 0, y: 0}
   RightClamp: {x: 0, y: 0}

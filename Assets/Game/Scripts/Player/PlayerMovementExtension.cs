@@ -20,6 +20,16 @@ public class PlayerMovementExtension : PlayerMovement
     // Update is called once per frame
     void Update()
     {
+      
+        if (GameManager.instance.currentState == GameManager.GameStates.LevelStart)
+        {
+      
+            playerAnimator.Walk();
+            Move(new Vector3(1, 0, 0) * walkSpeed);
+           
+        }
+
+
         if (canCharacterDash)
         {
             GetComponent<PlayerDash>().enabled = true;

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class CameraFollow : CameraShake {
 
@@ -13,11 +14,11 @@ public class CameraFollow : CameraShake {
 	private bool allowBacktrack;
 
 	void OnEnable(){
-		EnemyWaveSystem.onLevelStart += setPlayerAsTarget;
+		//EnemyWaveSystem.onLevelStart += setPlayerAsTarget;
 	}
 
 	void OnDisable(){
-		EnemyWaveSystem.onLevelStart -= setPlayerAsTarget;
+		//EnemyWaveSystem.onLevelStart -= setPlayerAsTarget;
 	}
 
 	void Start(){
@@ -28,6 +29,12 @@ public class CameraFollow : CameraShake {
 	}
 
 	void Update(){
+
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
+		 setPlayerAsTarget();
+		}
+
 		if(followTarget != null){
 
 			float x = followTarget.transform.position.x;
