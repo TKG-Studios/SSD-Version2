@@ -25,7 +25,7 @@ public class PlayerCombatExtension : PlayerCombat
       
     }
 
-   public override void CombatInputEvent(string action)
+    public override void CombatInputEvent(string action)
     {
         base.CombatInputEvent(action);
 

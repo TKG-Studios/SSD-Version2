@@ -58,17 +58,19 @@ public class InputManager : MonoBehaviour {
 	}
 
 	public static void CombatInputEvent(string action){
-	
+
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
 			if (onCombatInputEvent != null) onCombatInputEvent(action);
+		}
 		
 	}
 
 	public static void PauseInputEvent(string action)
 	{
-		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
-		{
+	
 			if (onPauseInput != null) onPauseInput(action);
-		}
+		
 	}
 
 	void Update(){
@@ -139,22 +141,28 @@ public class InputManager : MonoBehaviour {
 		Vector2 dir = new Vector2(x,y);
 		InputEvent(dir.normalized);
 
-        //Combat input -- TO DO Make this only applicable on Game Active
+		//Combat input -- TO DO Make this only applicable on Game Active
+		if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+		{
+			if (Input.GetKeyDown(JoypadPunch))
+			{
+				CombatInputEvent("Punch");
+			}
 
-        if (Input.GetKeyDown(JoypadPunch)){
-			CombatInputEvent("Punch");
-		}
+			if (Input.GetKeyDown(JoypadKick))
+			{
+				CombatInputEvent("Kick");
+			}
 
-		if(Input.GetKeyDown(JoypadKick)){
-			CombatInputEvent("Kick");
-		}
+			if (Input.GetKey(JoypadHeal))
+			{
+				CombatInputEvent("Heal");
+			}
 
-		if(Input.GetKey(JoypadHeal)){
-			CombatInputEvent("Heal");
-		}
-
-		if(Input.GetKey(JoypadJump)){
-			CombatInputEvent("Jump");
+			if (Input.GetKey(JoypadJump))
+			{
+				CombatInputEvent("Jump");
+			}
 		}
 
         if (Input.GetKeyDown(JoypadPause))

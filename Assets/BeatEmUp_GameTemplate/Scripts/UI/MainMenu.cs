@@ -10,12 +10,14 @@ public class MainMenu : MonoBehaviour {
 	private bool startGameInProgress = false;
 
 	void OnEnable() {
-		InputManager.onCombatInputEvent += InputEvent;
+		//InputManager.onCombatInputEvent += InputEvent;
+		InputManager.onPauseInput += InputEvent;
 	}
 
 	void OnDisable() {
-		InputManager.onCombatInputEvent -= InputEvent;
-	}
+		//InputManager.onCombatInputEvent -= InputEvent;
+        InputManager.onPauseInput -= InputEvent;
+    }
 
 	void InputEvent(string action){
 			StartGame();
