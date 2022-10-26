@@ -26,6 +26,7 @@ public class PlayerPause : MonoBehaviour
     {
         if (action == "Pause" && isGamePaused == false)
         {
+            GameManager.instance.changeState(GameManager.GameStates.GamePaused);
             isGamePaused = true;
             Time.timeScale = 0;
             GetComponent<PlayerMovement>().enabled = false;
@@ -35,6 +36,7 @@ public class PlayerPause : MonoBehaviour
 
         else if (action == "Pause" && isGamePaused == true)
         {
+            GameManager.instance.changeState(GameManager.GameStates.LevelActive);
             isGamePaused = false;
             Time.timeScale = 1;
             GetComponent<PlayerMovement>().enabled = true;

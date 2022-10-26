@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/BeatEmUp_GameTemplate/Scenes/Game.unity
+  - enabled: 0
+    path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Game/Scenes/Level_01.unity
+    guid: 53becbbcc709c334ca632495318f1d29
   m_configObjects: {}

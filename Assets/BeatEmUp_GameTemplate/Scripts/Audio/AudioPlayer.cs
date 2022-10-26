@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class AudioPlayer : MonoBehaviour {
@@ -38,10 +39,12 @@ public class AudioPlayer : MonoBehaviour {
 		music.name = "Music";
 		AudioSource AS = music.AddComponent<AudioSource>();
 
+		int sceneNumber = SceneManager.GetActiveScene().buildIndex;
+
 		//get music track from audiolist
 		foreach(AudioItem s in AudioList){
 			if(s.name == name){
-				AS.clip = s.clip[0];
+				AS.clip = s.clip[sceneNumber];
 				AS.loop = true;
 				AS.volume = s.volume * musicVolume;
 				AS.Play();
