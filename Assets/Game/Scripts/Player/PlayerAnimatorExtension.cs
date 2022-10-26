@@ -17,14 +17,18 @@ public class PlayerAnimatorExtension : PlayerAnimator
         StartCoroutine(ImpactPause());
     }
 
-    public void SpecialAttack()
+    public void SpecialAttack(int id)
     {
-        animator.SetTrigger("Special");
+        animator.SetTrigger("SpecialAttack" + id);
+ 
     }
 
     public void SpecialKnockDown()
     {
-        transform.parent.GetComponent<PlayerCombatExtension>().SpecialKnockDown();
+        int attackNum = 1;
+        SpecialAttack(attackNum);
+        transform.parent.GetComponent<PlayerCombatExtension>().Special(attackNum);
+       
     }
 
     public IEnumerator ImpactPause()

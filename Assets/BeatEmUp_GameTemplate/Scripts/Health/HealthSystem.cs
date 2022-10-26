@@ -5,6 +5,7 @@ public class HealthSystem : MonoBehaviour {
 
 	public int MaxHp = 20;
 	public int CurrentHp = 20;
+	public int SpecialPenalty = 20;
 	public bool invulnerable;
 	public delegate void OnHealthChange(float percentage, GameObject GO);
 	public static event OnHealthChange onHealthChange;

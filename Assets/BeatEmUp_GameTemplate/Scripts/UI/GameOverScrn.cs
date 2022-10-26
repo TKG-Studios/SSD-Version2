@@ -25,8 +25,10 @@ public class GameOverScrn : MonoBehaviour {
 	}
 
 	void ShowGameOverScrn(){
+	
 		fader.Fade(UIFader.FADE.FadeOut, .5f, 1);
-		Invoke("ShowText", 1.4f);
+        GameManager.instance.changeState(GameManager.GameStates.GameOver);
+        Invoke("ShowText", 1.4f);
 	}
 
 	void ShowText(){

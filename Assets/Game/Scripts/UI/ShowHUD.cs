@@ -9,21 +9,13 @@ public class ShowHUD : MonoBehaviour
     private void OnEnable()
     {
         GameManager.stateChange += ToggleHUD;
+     
     }
 
     private void OnDisable()
     {
         GameManager.stateChange -= ToggleHUD;
-    }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+      
     }
 
     public void ToggleHUD()

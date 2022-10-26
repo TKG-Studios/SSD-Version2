@@ -19,6 +19,8 @@ public class PlayerCombatExtension : PlayerCombat
     public delegate void SpecialBarHandler();
     public static event SpecialBarHandler SpecialBarEvent;
 
+   
+
     void Start()
     {
         playerAnimator = GetComponentInChildren<PlayerAnimatorExtension>();
@@ -31,12 +33,15 @@ public class PlayerCombatExtension : PlayerCombat
 
         if (action == "Special" && UISpecialMeter.instance.isBarFull == true)
         {
-                Special();
                 UISpecialMeter.instance.specialMeterFill.fillAmount = 0;
-                Special();
-
-
-
+                Special(0);
+                
+            HealthSystem hs = GetComponent<HealthSystem>();
+            if (hs != null)
+            {
+                hs.SubstractHealth(hs.MaxHp / hs.SpecialPenalty);
+            }
+                
         } else if (UISpecialMeter.instance.isBarFull == false)
         {
 
@@ -65,20 +70,23 @@ public class PlayerCombatExtension : PlayerCombat
     }
 
 
-   private void Special()
+   public void Special(int id)
     {
-      playerState.SetState(PLAYERSTATE.SPECIAL);
-      playerAnimator.SpecialAttack();
-    }
-
-    public void SpecialKnockDown()
-    {
-        attackNum = 0;
-        if (playerState.currentState == PLAYERSTATE.SPECIAL)
+        attackNum = id;
+        playerState.SetState(PLAYERSTATE.SPECIAL);
+        playerAnimator.SpecialAttack(attackNum);
+        if (id > 0)
         {
-            attackNum = 1;
+            StartCoroutine(idleFromSpecial());
         }
     }
+
+    IEnumerator idleFromSpecial()
+    {
+        yield return new WaitForSeconds(.2f);
+        playerState.SetState(PLAYERSTATE.IDLE);
+    }
+
 
     public override void Hit(DamageObject d)
     {

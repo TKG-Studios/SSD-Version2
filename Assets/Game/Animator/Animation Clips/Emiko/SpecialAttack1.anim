@@ -132,8 +132,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.0333333
+  - time: 1
     functionName: Check4Hit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1166667
+    functionName: SpecialKnockDown
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

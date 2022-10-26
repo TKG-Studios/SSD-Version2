@@ -28,7 +28,8 @@ public class GameManager : MonoBehaviour
         LevelEnd,
         DeliveringItem,
         GamePaused,
-        MenuScreen
+        MenuScreen,
+        GameOver
     }
 
     public GameStates changeState(GameStates newState)

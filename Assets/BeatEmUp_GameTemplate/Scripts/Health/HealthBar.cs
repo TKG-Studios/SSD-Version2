@@ -22,6 +22,17 @@ public class HealthBar : MonoBehaviour {
 		HpSlider.gameObject.SetActive(isPlayer);
 	}
 
+	private void Update()
+	{
+		if (GameManager.instance.currentState == GameManager.GameStates.GameOver)
+		{
+			{
+				HpSlider.gameObject.SetActive(false);
+				nameField.gameObject.SetActive(false);
+			}
+		}
+    }
+
 	public void UpdateHealth(float percentage, GameObject go){
 		if(isPlayer && go.CompareTag("Player")){
 			HpSlider.value = percentage;

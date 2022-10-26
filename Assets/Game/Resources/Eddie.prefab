@@ -183,6 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHp: 5
   CurrentHp: 5
+  SpecialPenalty: 20
   invulnerable: 0
   xpToGive: 5
 --- !u!114 &7407365261319301723
