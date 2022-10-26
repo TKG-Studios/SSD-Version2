@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent (typeof(Animator))]
 public class PlayerAnimator : MonoBehaviour {
 
-	private Animator animator;
+	protected Animator animator;
 	private AudioPlayer audioPlayer;
 
 	void Awake() {

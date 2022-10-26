@@ -19,8 +19,8 @@ public class PlayerCombat : MonoBehaviour {
 	[SerializeField] public int attackNum = 1; //the current attack number
 	private bool continuePunchCombo; //true if a punch combo needs to continue
 	private bool continueKickCombo; //true if the a kick combo needs to  continue
-	private PlayerAnimator animator; //link to the animator component
-	private PlayerState playerState; //the state of the player
+	protected PlayerAnimator animator; //link to the animator component
+	protected PlayerState playerState; //the state of the player
 	private float LastAttackTime = 0; //time of the last attack
 	[HideInInspector]
 	public bool targetHit; //true if the last hit has hit a target
@@ -33,11 +33,11 @@ public class PlayerCombat : MonoBehaviour {
 	public int HitKnockDownCount = 0; //the number of times the player is hit in a row
 	private int HitKnockDownResetTime = 2; //the time before the hitknockdown counter resets
 	private float LastHitTime = 0; // the time when we were hit 
-	private List<PLAYERSTATE> AttackStates = new List<PLAYERSTATE> { PLAYERSTATE.IDLE, PLAYERSTATE.MOVING, PLAYERSTATE.JUMPING, PLAYERSTATE.PUNCH, PLAYERSTATE.KICK, PLAYERSTATE.DEFENDING }; //a list of states where the player can attack
+	private List<PLAYERSTATE> AttackStates = new List<PLAYERSTATE> { PLAYERSTATE.IDLE, PLAYERSTATE.MOVING, PLAYERSTATE.JUMPING, PLAYERSTATE.PUNCH, PLAYERSTATE.KICK, PLAYERSTATE.DEFENDING, PLAYERSTATE.SPECIAL }; //a list of states where the player can attack
 	private List<PLAYERSTATE> HitStates = new List<PLAYERSTATE> { PLAYERSTATE.HIT, PLAYERSTATE.DEATH, PLAYERSTATE.KNOCKDOWN }; //a list of states where the player was hit
 	private float yHitDistance = 0.4f;  //the Y distance from which the player is able to hit an enemy
 	private bool isDead = false; //true if this player has died
-	private bool jumpKickActive; //true if a jump kick has been done
+	protected bool jumpKickActive; //true if a jump kick has been done
 	private bool defend = false; //true if the defend button is down
 
 	private void OnEnable() {
@@ -179,6 +179,8 @@ public class PlayerCombat : MonoBehaviour {
 		animator.StartDefend();
 	}
 
+	
+
 	//returns the next attack number in the combo chain
 	private int GetNextAttackNum() {
 		if (playerState.currentState == PLAYERSTATE.PUNCH) {
@@ -294,13 +296,13 @@ public class PlayerCombat : MonoBehaviour {
 	}
 
 	//deals damage to an enemy target
-	private void DealDamageToEnemy(GameObject enemy) {
+	protected virtual void DealDamageToEnemy(GameObject enemy) {
 		DamageObject d = new DamageObject (0, gameObject);
 
 		if (playerState.currentState == PLAYERSTATE.PUNCH) {
-			d = PunchAttackData [attackNum];
+			d = PunchAttackData[attackNum];
 		} else if (playerState.currentState == PLAYERSTATE.KICK) {
-			d = KickAttackData [attackNum];
+			d = KickAttackData[attackNum];
 		} else if (playerState.currentState == PLAYERSTATE.THROWKNIFE) {
 			d.damage = currentWeapon.data;
 			d.attackType = AttackType.KnockDown;
@@ -330,7 +332,7 @@ public class PlayerCombat : MonoBehaviour {
 	}
 
 	//returns the attack range of the current attack
-	private float getAttackRange() {
+	protected virtual float getAttackRange() {
 		if (playerState.currentState == PLAYERSTATE.PUNCH && attackNum <= PunchAttackData.Length) {
 			return PunchAttackData [attackNum].range;
 		} else if (playerState.currentState == PLAYERSTATE.KICK && attackNum <= KickAttackData.Length) {

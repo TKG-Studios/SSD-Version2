@@ -87,9 +87,9 @@ GameObject:
   - component: {fileID: 6802641144427017272}
   - component: {fileID: 8466599616064787415}
   - component: {fileID: 5456031600181423151}
-  - component: {fileID: 5356036996728966003}
+  - component: {fileID: 4154805221995586122}
   m_Layer: 5
-  m_Name: HealMeter
+  m_Name: SpecialMeter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5356036996728966003
+--- !u!114 &4154805221995586122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,12 +163,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1610877349534868429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52b42eb5246b2e14a993b4aee3680eb2, type: 3}
+  m_Script: {fileID: 11500000, guid: eaf459f3b9f39944383cc1ad5466d942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healMeterFill: {fileID: 1552855839024849803}
+  specialMeterFill: {fileID: 1552855839024849803}
   isBarFull: 0
-  healingBarDivisor: 0
 --- !u!1 &1665858544497387677
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,10 +23,15 @@ public class PlayerMovementExtension : PlayerMovement
       
         if (GameManager.instance.currentState == GameManager.GameStates.LevelStart)
         {
-      
+            canCharacterDash = false;
             playerAnimator.Walk();
             Move(new Vector3(1, 0, 0) * walkSpeed);
            
+        }
+
+        if (GameManager.instance.currentState == GameManager.GameStates.LevelActive)
+        {
+            canCharacterDash = true;
         }
 
 

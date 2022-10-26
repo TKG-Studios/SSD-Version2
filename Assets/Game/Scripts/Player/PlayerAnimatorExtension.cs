@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class PlayerAnimatorExtension : PlayerAnimator
 {
@@ -14,6 +15,16 @@ public class PlayerAnimatorExtension : PlayerAnimator
     {
         base.ShowDustEffect();
         StartCoroutine(ImpactPause());
+    }
+
+    public void SpecialAttack()
+    {
+        animator.SetTrigger("Special");
+    }
+
+    public void SpecialKnockDown()
+    {
+        transform.parent.GetComponent<PlayerCombatExtension>().SpecialKnockDown();
     }
 
     public IEnumerator ImpactPause()

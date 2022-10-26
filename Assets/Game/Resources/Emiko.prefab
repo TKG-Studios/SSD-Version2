@@ -337,9 +337,18 @@ MonoBehaviour:
   targetHit: 0
   HitKnockDownThreshold: 3
   HitKnockDownCount: 0
-  specialAttackData: []
+  specialAttackData:
+  - damage: 2
+    range: 2.5
+    attackType: 20
+    inflictor: {fileID: 8283673112934265221}
+    comboResetTime: 0
+  - damage: 4
+    range: 2.5
+    attackType: 30
+    inflictor: {fileID: 8283673112934265221}
+    comboResetTime: 0
   attackPointValue: 0
-  healDivisor: 0
 --- !u!114 &6066793129329705182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,6 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLevel: 1
   xPToNext: 100
+  neededXp: 0
   currentXP: 0
   xPMultiplier: 1.04
   xPAdditive: 10

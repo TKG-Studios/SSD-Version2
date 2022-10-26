@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class PlayerCombatExtension : PlayerCombat
 {
@@ -9,15 +10,14 @@ public class PlayerCombatExtension : PlayerCombat
 
     [HideInInspector]
     public int attackPointValue;
-    public int healDivisor;
  
 
     //Points Not Used In Main Game
     public delegate void PointsEventHandler(int points);
     public static event PointsEventHandler PointsEvent;
 
-    public delegate void HealBarHandler();
-    public static event HealBarHandler HealBarEvent;
+    public delegate void SpecialBarHandler();
+    public static event SpecialBarHandler SpecialBarEvent;
 
     void Start()
     {
@@ -29,18 +29,54 @@ public class PlayerCombatExtension : PlayerCombat
     {
         base.CombatInputEvent(action);
 
-        if (action == "Heal" && UIHealMeter.instance.isBarFull == true)
+        if (action == "Special" && UISpecialMeter.instance.isBarFull == true)
         {
-          
-                healDivisor = UIHealMeter.instance.healingBarDivisor;
-                UIHealMeter.instance.healMeterFill.fillAmount = 0;
-                GetComponent<HealthSystem>().AddHealth(CalculateHealAmount(healDivisor));
-              
-            
-           
-        } else if (UIHealMeter.instance.isBarFull == false)
+                Special();
+                UISpecialMeter.instance.specialMeterFill.fillAmount = 0;
+                Special();
+
+
+
+        } else if (UISpecialMeter.instance.isBarFull == false)
         {
 
+        }
+    }
+
+    protected override void DealDamageToEnemy(GameObject enemy)
+    {
+        base.DealDamageToEnemy(enemy);
+
+        DamageObject d = new DamageObject(0, gameObject);
+        if (playerState.currentState == PLAYERSTATE.SPECIAL)
+        {
+            d = specialAttackData[attackNum];
+        }
+        d.inflictor = gameObject;
+
+        //subsctract health from enemy
+        HealthSystem hs = enemy.GetComponent<HealthSystem>();
+        if (hs != null)
+        {
+            hs.SubstractHealth(d.damage);
+        }
+
+        enemy.GetComponent<EnemyAI>().Hit(d);
+    }
+
+
+   private void Special()
+    {
+      playerState.SetState(PLAYERSTATE.SPECIAL);
+      playerAnimator.SpecialAttack();
+    }
+
+    public void SpecialKnockDown()
+    {
+        attackNum = 0;
+        if (playerState.currentState == PLAYERSTATE.SPECIAL)
+        {
+            attackNum = 1;
         }
     }
 
@@ -60,18 +96,49 @@ public class PlayerCombatExtension : PlayerCombat
         }
     }
 
+    protected override float getAttackRange()
+    {
+        base.getAttackRange();
+        if (playerState.currentState == PLAYERSTATE.PUNCH && attackNum <= PunchAttackData.Length)
+        {
+            return PunchAttackData[attackNum].range;
+        }
+        else if (playerState.currentState == PLAYERSTATE.KICK && attackNum <= KickAttackData.Length)
+        {
+            return KickAttackData[attackNum].range;
+        }
+        else if (jumpKickActive)
+        {
+            return JumpKickData.range;
+        }
+
+        else if (playerState.currentState == PLAYERSTATE.SPECIAL && attackNum <= specialAttackData.Length)
+        {
+            return specialAttackData[attackNum].range;
+        }
+        else
+        {
+            return 0f;
+        } 
+    }
+
     public override void CheckForHit()
     {
         base.CheckForHit();
         //GetAttackPointValue();
         if (targetHit)
         {
-            if (HealBarEvent != null) HealBarEvent();
+            if (playerState.currentState == PLAYERSTATE.KICK || playerState.currentState == PLAYERSTATE.PUNCH || playerState.currentState == PLAYERSTATE.JUMPKICK)
+            {
+                if (SpecialBarEvent != null) SpecialBarEvent();
+            }
 
             //Not Used In Main Game --- Save this for a mini game
             if (PointsEvent != null) PointsEvent(GetAttackPointValue());
 
         }
+
+
     }
 
     //Not Used In Main Game
@@ -93,11 +160,5 @@ public class PlayerCombatExtension : PlayerCombat
         return attackPointValue;
     }
 
-    private int CalculateHealAmount(int divisor)
-    {
-        
-        int healAmount = GetComponent<HealthSystem>().MaxHp / divisor;
-        return healAmount;
-    }
 
 }

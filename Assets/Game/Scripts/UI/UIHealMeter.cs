@@ -16,13 +16,13 @@ public class UIHealMeter : MonoBehaviour
     public int healingBarDivisor;
     private void OnEnable()
     {
-        PlayerCombatExtension.HealBarEvent += UpdateHealBar;
+        //PlayerCombatExtension.HealBarEvent += UpdateHealBar;
 
     }
 
     private void OnDisable()
     {
-        PlayerCombatExtension.HealBarEvent -= UpdateHealBar;
+        //PlayerCombatExtension.HealBarEvent -= UpdateHealBar;
 
     }
 
