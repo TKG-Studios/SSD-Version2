@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelMusic: Music
-  playMusic: 1
+  playMusic: 0
 --- !u!1001 &1635099031
 PrefabInstance:
   m_ObjectHideFlags: 0
