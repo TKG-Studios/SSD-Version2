@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 5713279648197833075}
   - component: {fileID: 6906735822983144825}
   - component: {fileID: 2447356696225861399}
+  - component: {fileID: 1491284801980472077}
   m_Layer: 9
   m_Name: Emiko
   m_TagString: Player
@@ -481,6 +482,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67d2490be39496c49bcd4a5bba4f3c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1491284801980472077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8283673112934265221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8675cf68d875d94f8a45af1f6dc50a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deliveriesLeft: 5
 --- !u!1 &8564994714068507406
 GameObject:
   m_ObjectHideFlags: 0
