@@ -23,11 +23,11 @@ using Unity.VisualScripting;
             GFX.transform.parent = script.transform;
             GFX.transform.localPosition = new Vector3(0,0,0);
             GFX.name = "GFX";
-            Animator anim= GFX.AddComponent<Animator>();
-            GFX.AddComponent<EnemyAnimator>();
+            GFX.AddComponent<Animator>();
             SpriteRenderer GFXSprite = GFX.AddComponent<SpriteRenderer>();
             GFXSprite.sprite = script.enemySprite;
-         
+            GFX.AddComponent<EnemyAnimator>();
+
 
             script.AddComponent<EnemyAIExtension>();
             script.AddComponent<HealthSystemExtension>();

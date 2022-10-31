@@ -1814,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 427306, guid: bfe69dddf6d71a54587adc05737c7dbc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 11416912, guid: bfe69dddf6d71a54587adc05737c7dbc, type: 3}
       propertyPath: enemyName
       value: Eddie
