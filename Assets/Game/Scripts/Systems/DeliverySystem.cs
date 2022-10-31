@@ -13,7 +13,7 @@ public class DeliverySystem : MonoBehaviour
 
     private void Start()
     {
-        deliveriesLeft = DeliveriesPerLevel.Instance.levelsDeliveries;
+        deliveriesLeft = LevelManager.instance.customers;
       
     }
 

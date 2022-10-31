@@ -20,7 +20,7 @@ public class UIDeliverySystem : MonoBehaviour
 
     private void Start()
     {
-        UpdateDeliveryUI(DeliveriesPerLevel.Instance.levelsDeliveries);
+        UpdateDeliveryUI(LevelManager.instance.customers);
     }
 
     public void UpdateDeliveryUI(int deliveries)

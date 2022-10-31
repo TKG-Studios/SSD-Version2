@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeliveriesPerLevel : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
-
-    public static DeliveriesPerLevel Instance { get; private set; }
-    public int levelsDeliveries;
+    public static LevelManager instance;
+    public int customers;
     void Start()
     {
-        Instance = this;
+        instance = this;
     }
 
     // Update is called once per frame

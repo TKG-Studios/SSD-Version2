@@ -25,9 +25,9 @@ public class MainMenu : MonoBehaviour {
 
 	void Start(){
 
-		//startGame();
+		startGame();
 		//Start fade in
-		Invoke("FadeIn", 1f);
+		//Invoke("FadeIn", 1f);
 	}
 
 	public void StartGame(){
