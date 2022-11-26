@@ -14,6 +14,9 @@ public class EnemyWaveSystem : MonoBehaviour {
 	public static event OnLevelEvent onLevelComplete;
 	public static event OnLevelEvent onLevelStart;
 
+
+	public delegate void TimerResetEvent();
+	public static event TimerResetEvent onTimerReset;
 	void OnEnable(){
 		Enemy.OnUnitDestroy += onUnitDestroy;
 		DeliveryCustomer.onDeliveryMade += onDeliveryMade;
@@ -70,7 +73,7 @@ public class EnemyWaveSystem : MonoBehaviour {
 
 	public void StartWave(){
 		CameraFollow cam = Camera.main.GetComponent<CameraFollow>();
-
+		if (onTimerReset!= null) { onTimerReset(); }
 		if(cam != null){
 			if(EnemyWaves[currentWave].PositionMarker != null){
 
@@ -93,6 +96,8 @@ public class EnemyWaveSystem : MonoBehaviour {
 			Debug.Log("no camera Follow component found on " + Camera.main.gameObject.name);
 		}
 		Invoke("SetEnemyTactics", .1f);
+		
+
 	}
 
 	void SetEnemyTactics(){

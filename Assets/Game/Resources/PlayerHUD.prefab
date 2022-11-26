@@ -135,9 +135,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHUD: {fileID: 1282689437003057928}
-  onStart:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!222 &3237185106431908336
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -353,6 +350,7 @@ GameObject:
   - component: {fileID: 71011852817279950}
   - component: {fileID: 1905020435075668332}
   - component: {fileID: 8129648971515645733}
+  - component: {fileID: 4610207765782059975}
   m_Layer: 5
   m_Name: TimerDisplay
   m_TagString: Untagged
@@ -419,6 +417,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4610207765782059975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954241118088080212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3a462ccac773c4bb6a4411a3d6a668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 8095577904400123163}
 --- !u!1 &1282689437003057928
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class EnemyWave
 	public Transform PositionMarker; // the screen stops scrolling at this position marker until the wave is complete
 	public List<GameObject> EnemyList = new List<GameObject> ();
 	public List<GameObject> CustomerList = new List<GameObject>();
+	public int waveTimer;
 
 	public bool waveComplete()
 	{
