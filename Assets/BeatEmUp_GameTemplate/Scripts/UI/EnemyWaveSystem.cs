@@ -7,6 +7,7 @@ public class EnemyWaveSystem : MonoBehaviour {
 	public Transform positionMarkerLeft;
 	public EnemyWave[] EnemyWaves;
 
+
 	[SerializeField]
 	public int currentWave;
 	public delegate void OnLevelEvent();
@@ -15,11 +16,13 @@ public class EnemyWaveSystem : MonoBehaviour {
 
 	void OnEnable(){
 		Enemy.OnUnitDestroy += onUnitDestroy;
+		DeliveryCustomer.onDeliveryMade += onDeliveryMade;
 	}
 
 	void OnDisable(){
 		Enemy.OnUnitDestroy -= onUnitDestroy;
-	}
+        DeliveryCustomer.onDeliveryMade -= onDeliveryMade;
+    }
 
 	void Start(){
 		currentWave = 0;
@@ -36,7 +39,7 @@ public class EnemyWaveSystem : MonoBehaviour {
 	void onUnitDestroy(	GameObject g){
 		if(EnemyWaves.Length > currentWave){
 			EnemyWaves[currentWave].RemoveEnemyFromWave(g);
-			if(EnemyWaves[currentWave].waveComplete()){
+			if(EnemyWaves[currentWave].waveComplete() && EnemyWaves[currentWave].deliveriesMade()) {
 				currentWave += 1;
 				if(!allWavesCompleted()){ 
 					StartWave();
@@ -46,6 +49,23 @@ public class EnemyWaveSystem : MonoBehaviour {
 			}
 		}
 	}
+
+	void onDeliveryMade(GameObject g)
+	{
+		if (EnemyWaves[currentWave].CustomerList != null)
+		{
+			EnemyWaves[currentWave].RemoveCustomerFromList(g);
+            currentWave += 1;
+            if (!allWavesCompleted())
+            {
+                StartWave();
+            }
+            else
+            {
+                if (onLevelComplete != null) onLevelComplete();
+            }
+        }
+	} 
 
 	public void StartWave(){
 		CameraFollow cam = Camera.main.GetComponent<CameraFollow>();
