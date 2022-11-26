@@ -135,6 +135,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHUD: {fileID: 1282689437003057928}
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!222 &3237185106431908336
 CanvasRenderer:
   m_ObjectHideFlags: 0

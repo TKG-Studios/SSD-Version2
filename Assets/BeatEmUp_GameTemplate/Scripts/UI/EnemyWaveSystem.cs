@@ -55,15 +55,16 @@ public class EnemyWaveSystem : MonoBehaviour {
 		if (EnemyWaves[currentWave].CustomerList != null)
 		{
 			EnemyWaves[currentWave].RemoveCustomerFromList(g);
-            currentWave += 1;
-            if (!allWavesCompleted())
-            {
-                StartWave();
+			if (EnemyWaves[currentWave].waveComplete())
+			{
+                currentWave += 1;
+                if (!allWavesCompleted())
+                {
+                    StartWave();
+                }
             }
-            else
-            {
-                if (onLevelComplete != null) onLevelComplete();
-            }
+       
+       
         }
 	} 
 

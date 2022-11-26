@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeliveryCustomer : MonoBehaviour
 {
     public string CustomerName = ""; //Name of the customer being delivered to
-    public Transform PositionMarker; //screen will stop here until the delivery has been made
+
 
     public delegate void DeliveryMade(GameObject g);
     public static event DeliveryMade onDeliveryMade;
