@@ -16,10 +16,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         DontDestroyOnLoad(this);
-    }
-    private void OnEnable()
-    {
-      
+ 
     }
     public enum GameStates
     {

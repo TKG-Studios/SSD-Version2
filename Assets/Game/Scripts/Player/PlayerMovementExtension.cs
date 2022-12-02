@@ -34,6 +34,11 @@ public class PlayerMovementExtension : PlayerMovement
             canCharacterDash = true;
         }
 
+        if (GameManager.instance.currentState == GameManager.GameStates.GameOver)
+        {
+            Destroy(gameObject);        
+        }
+
 
         if (canCharacterDash)
         {

@@ -23,11 +23,6 @@ public class LevelStartScreen : MonoBehaviour
         HideText();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void LevelText()
     {

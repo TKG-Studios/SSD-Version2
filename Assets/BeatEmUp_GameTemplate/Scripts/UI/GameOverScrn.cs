@@ -16,19 +16,22 @@ public class GameOverScrn : MonoBehaviour {
 
 	void OnEnable() {
 		PlayerCombat.OnPlayerDeath += ShowGameOverScrn;
-		InputManager.onCombatInputEvent += InputEvent;
+        UITimerDisplay.onTimerGameOver += ShowGameOverScrn;
+        InputManager.onCombatInputEvent += InputEvent;
+		
 	}
 
 	void OnDisable() {
 		PlayerCombat.OnPlayerDeath -= ShowGameOverScrn;
-		InputManager.onCombatInputEvent -= InputEvent;
+        UITimerDisplay.onTimerGameOver -= ShowGameOverScrn;
+        InputManager.onCombatInputEvent -= InputEvent;
 	}
 
 	void ShowGameOverScrn(){
 	
 		fader.Fade(UIFader.FADE.FadeOut, .5f, 1);
-        GameManager.instance.changeState(GameManager.GameStates.GameOver);
         Invoke("ShowText", 1.4f);
+		GameManager.instance.changeState(GameManager.GameStates.GameOver);
 	}
 
 	void ShowText(){
