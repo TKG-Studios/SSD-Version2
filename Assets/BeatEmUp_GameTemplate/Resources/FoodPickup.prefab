@@ -53,7 +53,7 @@ MonoBehaviour:
     itemName: Food
     sfx: ItemPickup
     callMethod: GiveHealthToPlayer
-    data: 10
+    data: 20
     isPickup: 1
     SpawnObjectOnDestroy: {fileID: 0}
 --- !u!61 &61000011508337296

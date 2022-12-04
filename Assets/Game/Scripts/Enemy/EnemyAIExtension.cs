@@ -24,11 +24,9 @@ public class EnemyAIExtension : EnemyAI
                AI();
 
             }
-            else
+        
 
-            {
-                //Look4Target();
-            }
+       
         }
         UpdateSpriteSorting();
     }

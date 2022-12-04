@@ -36,7 +36,7 @@ public class PlayerMovementExtension : PlayerMovement
 
         if (GameManager.instance.currentState == GameManager.GameStates.GameOver)
         {
-            Destroy(gameObject);        
+              
         }
 
 

@@ -73,6 +73,7 @@ public class EnemyWaveSystem : MonoBehaviour {
 
 	public void StartWave(){
 		CameraFollow cam = Camera.main.GetComponent<CameraFollow>();
+
 		if (onTimerReset!= null) { onTimerReset(); }
 		if(cam != null){
 			if(EnemyWaves[currentWave].PositionMarker != null){
@@ -87,7 +88,9 @@ public class EnemyWaveSystem : MonoBehaviour {
 				//enable the enemies of this wave
 				foreach(GameObject g in EnemyWaves[currentWave].EnemyList){
 					g.SetActive(true);
-				}
+                    g.GetComponent<EnemyAIExtension>().targetSpotted = true;
+					g.GetComponent<EnemyAIExtension>().enableAI = true;
+                }
 
 			} else {
 				Debug.Log("no position marker found in this wave");

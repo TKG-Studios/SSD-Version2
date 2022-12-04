@@ -61,10 +61,15 @@ public class Enemy : MonoBehaviour
 		Destroy(gameObject);
 
 		diceRoll = Random.Range(0, 3);
-		if (diceRoll < 3)
+
+			if (diceRoll <= currencyArray.Length)
+			{
+                dropCurrency();
+            } else if ( diceRoll >= currencyArray.Length)
 		{
-			dropCurrency();
+			diceRoll = currencyArray.Length;
 		}
+		
 	}
 
 	//create event
