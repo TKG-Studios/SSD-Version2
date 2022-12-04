@@ -50,6 +50,7 @@ public class LevelStartScreen : MonoBehaviour
         GameManager.instance.changeState(GameManager.GameStates.LevelActive);
         // Create HUD
         if (!GameObject.FindGameObjectWithTag("HUD")) GameObject.Instantiate(Resources.Load("PlayerHUD"), Vector3.zero, Quaternion.identity);
+       GameObject.Instantiate(Resources.Load("EnemyDisplay"), Vector3.zero, Quaternion.identity);
     }
 
 }

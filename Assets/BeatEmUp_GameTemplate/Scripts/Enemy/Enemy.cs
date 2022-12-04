@@ -68,7 +68,8 @@ public class Enemy : MonoBehaviour
             } else if ( diceRoll >= currencyArray.Length)
 		{
 			diceRoll = currencyArray.Length;
-		}
+            dropCurrency();
+        }
 		
 	}
 
