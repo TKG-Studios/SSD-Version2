@@ -46,6 +46,7 @@ public class EnemyWaveSystem : MonoBehaviour {
 				currentWave += 1;
 				if(!allWavesCompleted()){ 
 					StartWave();
+					Debug.Log("Wave " + currentWave + "Starting");
 				} else{
 					if(onLevelComplete != null) onLevelComplete();
 				}
@@ -65,6 +66,10 @@ public class EnemyWaveSystem : MonoBehaviour {
                 {
                     StartWave();
                 }
+                //else
+                //{
+                //    if (onLevelComplete != null) onLevelComplete();
+                //}
             }
        
        
@@ -75,6 +80,8 @@ public class EnemyWaveSystem : MonoBehaviour {
 		CameraFollow cam = Camera.main.GetComponent<CameraFollow>();
 
 		if (onTimerReset!= null) { onTimerReset(); }
+
+
 		if(cam != null){
 			if(EnemyWaves[currentWave].PositionMarker != null){
 
@@ -87,9 +94,12 @@ public class EnemyWaveSystem : MonoBehaviour {
 
 				//enable the enemies of this wave
 				foreach(GameObject g in EnemyWaves[currentWave].EnemyList){
-					g.SetActive(true);
-                    g.GetComponent<EnemyAIExtension>().targetSpotted = true;
-					g.GetComponent<EnemyAIExtension>().enableAI = true;
+					if (g.activeInHierarchy == false)
+					{
+						g.SetActive(true);
+						g.GetComponent<EnemyAIExtension>().targetSpotted = true;
+						g.GetComponent<EnemyAIExtension>().enableAI = true;
+					}
                 }
 
 			} else {

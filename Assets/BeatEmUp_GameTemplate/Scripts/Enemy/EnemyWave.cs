@@ -13,7 +13,7 @@ public class EnemyWave
 
 	public bool waveComplete()
 	{
-		if (EnemyList.Count == 0) {
+		if (EnemyList.Count == 0 && deliveriesMade()) {
 			return true;
 		} else {
 			return false;
