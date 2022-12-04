@@ -18,7 +18,11 @@ public class LevelStartScreen : MonoBehaviour
     {
         GameManager.stateChange -= LevelText;
     }
-   
+
+    private void Start()
+    {
+        HideText();
+    }
 
     public void LevelText()
     {
