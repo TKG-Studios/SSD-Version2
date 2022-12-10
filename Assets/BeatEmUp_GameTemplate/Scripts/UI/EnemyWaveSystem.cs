@@ -97,8 +97,8 @@ public class EnemyWaveSystem : MonoBehaviour {
 					if (g.activeInHierarchy == false)
 					{
 						g.SetActive(true);
-						g.GetComponent<EnemyAIExtension>().targetSpotted = true;
-						g.GetComponent<EnemyAIExtension>().enableAI = true;
+						//g.GetComponent<EnemyAIExtension>().targetSpotted = true;
+						//g.GetComponent<EnemyAIExtension>().enableAI = true;
 					}
                 }
 
